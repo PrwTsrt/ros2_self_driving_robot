@@ -1,5 +1,1 @@
-<<<<<<< HEAD
-joint_state_publisher_gui:rclcpp:robot_state_publisher:ros2launch:rviz2:std_msgs:urdf
-=======
 gazebo_plugins:gazebo_ros:gazebo_ros2_control:gazebo_ros_pkgs:joint_state_publisher_gui:robot_state_publisher:ros2launch:rviz2:urdf:xacro
->>>>>>> 267328f (Initial commit)

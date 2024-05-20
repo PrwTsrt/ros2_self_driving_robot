@@ -1,0 +1,2 @@
+Invoking command in '/home/p_rawicht/bb_ws/build/robot_description': /usr/bin/cmake --build /home/p_rawicht/bb_ws/build/robot_description -- -j20 -l20
+Invoked command in '/home/p_rawicht/bb_ws/build/robot_description' returned '2': /usr/bin/cmake --build /home/p_rawicht/bb_ws/build/robot_description -- -j20 -l20

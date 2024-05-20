@@ -8,10 +8,6 @@ endif()
 # find dependencies
 find_package(ament_cmake REQUIRED)
 find_package(urdf REQUIRED)
-<<<<<<< HEAD
-find_package(rclcpp REQUIRED)
-=======
->>>>>>> 267328f (Initial commit)
 
 install(
   DIRECTORY launch urdf rviz

@@ -2,15 +2,6 @@
 
 <robot name="bumperbot" xmlns:xacro="http://ros.org/wiki/xacro">
 
-<<<<<<< HEAD
-    <link name="base_footprint"/>
-
-     <link name="base_link">
-        <origin xyz="0 0 0" rpy="0 0 0"/>
-        <geometry>
-            <box size="0.345 0.2 0.14"/>
-        </geometry>
-=======
     <material name="white">
             <color rgba="1 1 1 1"/>
     </material>
@@ -29,7 +20,6 @@
             </geometry>
             <material name="white"/>
         </visual>
->>>>>>> 267328f (Initial commit)
         <collision>
             <origin xyz="0 0 0" rpy="0 0 0"/>
             <geometry>
@@ -41,14 +31,6 @@
      <joint name="base_joint" type="fixed">
         <parent link="base_footprint"/>
         <child link="base_link" />
-<<<<<<< HEAD
-        <origin xyz="0 0 0" rpy="0 0 0"/>
-      </joint>
-
-
-
-
-=======
         <origin xyz="0 0 0.1085" rpy="0 0 0"/>
      </joint>
 
@@ -143,5 +125,4 @@
         <origin xyz="-0.1125 0.07 -0.07" rpy="0 0 0"/>
         <axis xyz="0 0 0" />
      </joint>
->>>>>>> 267328f (Initial commit)
 </robot>
