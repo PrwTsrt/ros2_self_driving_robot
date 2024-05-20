@@ -1,0 +1,1 @@
+/home/smr/ros2_self_driving_robot/src/build/sllidar_ros2/ament_cmake_environment_hooks/local_setup.sh

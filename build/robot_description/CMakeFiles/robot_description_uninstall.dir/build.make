@@ -53,10 +53,10 @@ RM = /usr/bin/cmake -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/p_rawicht/bb_ws/src/robot_description
+CMAKE_SOURCE_DIR = /home/smr/ros2_self_driving_robot/src/robot_description
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/p_rawicht/bb_ws/build/robot_description
+CMAKE_BINARY_DIR = /home/smr/ros2_self_driving_robot/build/robot_description
 
 # Utility rule file for robot_description_uninstall.
 
@@ -67,7 +67,7 @@ include CMakeFiles/robot_description_uninstall.dir/compiler_depend.make
 include CMakeFiles/robot_description_uninstall.dir/progress.make
 
 CMakeFiles/robot_description_uninstall:
-	/usr/bin/cmake -P /home/p_rawicht/bb_ws/build/robot_description/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
+	/usr/bin/cmake -P /home/smr/ros2_self_driving_robot/build/robot_description/ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake
 
 robot_description_uninstall: CMakeFiles/robot_description_uninstall
 robot_description_uninstall: CMakeFiles/robot_description_uninstall.dir/build.make
@@ -82,6 +82,6 @@ CMakeFiles/robot_description_uninstall.dir/clean:
 .PHONY : CMakeFiles/robot_description_uninstall.dir/clean
 
 CMakeFiles/robot_description_uninstall.dir/depend:
-	cd /home/p_rawicht/bb_ws/build/robot_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/p_rawicht/bb_ws/src/robot_description /home/p_rawicht/bb_ws/src/robot_description /home/p_rawicht/bb_ws/build/robot_description /home/p_rawicht/bb_ws/build/robot_description /home/p_rawicht/bb_ws/build/robot_description/CMakeFiles/robot_description_uninstall.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/smr/ros2_self_driving_robot/build/robot_description && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/smr/ros2_self_driving_robot/src/robot_description /home/smr/ros2_self_driving_robot/src/robot_description /home/smr/ros2_self_driving_robot/build/robot_description /home/smr/ros2_self_driving_robot/build/robot_description /home/smr/ros2_self_driving_robot/build/robot_description/CMakeFiles/robot_description_uninstall.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : CMakeFiles/robot_description_uninstall.dir/depend
 

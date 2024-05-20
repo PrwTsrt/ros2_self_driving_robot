@@ -1,1 +1,0 @@
-Invoking command in '/home/p_rawicht/bb_ws/build/my_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/p_rawicht/bb_ws/build/my_package -- -j20 -l20

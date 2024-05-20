@@ -1,0 +1,43 @@
+[0.025s] Invoking command in '/home/smr/ros2_self_driving_robot/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/smr/ros2_self_driving_robot/src/robot_description -DCMAKE_INSTALL_PREFIX=/home/smr/ros2_self_driving_robot/install/robot_description
+[0.118s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.409s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.443s] -- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+[0.509s] -- Found TinyXML2 via Config file: /usr/local/lib/cmake/tinyxml2
+[0.523s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.669s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.669s] -- Configured cppcheck include dirs: 
+[0.670s] -- Configured cppcheck exclude dirs and/or files: 
+[0.670s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.674s] -- Added test 'lint_cmake' to check CMake code style
+[0.676s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.686s] -- Added test 'uncrustify' to check C / C++ code style
+[0.686s] -- Configured uncrustify additional arguments: 
+[0.687s] -- Added test 'xmllint' to check XML markup files
+[0.689s] -- Configuring done
+[0.701s] -- Generating done
+[0.702s] -- Build files have been written to: /home/smr/ros2_self_driving_robot/build/robot_description
+[0.713s] Invoked command in '/home/smr/ros2_self_driving_robot/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake /home/smr/ros2_self_driving_robot/src/robot_description -DCMAKE_INSTALL_PREFIX=/home/smr/ros2_self_driving_robot/install/robot_description
+[0.714s] Invoking command in '/home/smr/ros2_self_driving_robot/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/smr/ros2_self_driving_robot/build/robot_description -- -j8 -l8
+[0.833s] Invoked command in '/home/smr/ros2_self_driving_robot/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/smr/ros2_self_driving_robot/build/robot_description -- -j8 -l8
+[0.915s] Invoking command in '/home/smr/ros2_self_driving_robot/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/smr/ros2_self_driving_robot/build/robot_description
+[0.937s] -- Install configuration: ""
+[0.938s] -- Execute custom install script
+[0.939s] -- Up-to-date symlink: /home/smr/ros2_self_driving_robot/install/robot_description/share/robot_description/launch/display.launch.py
+[0.939s] -- Up-to-date symlink: /home/smr/ros2_self_driving_robot/install/robot_description/share/robot_description/urdf/bb_bot.urdf.xacro
+[0.940s] -- Up-to-date symlink: /home/smr/ros2_self_driving_robot/install/robot_description/share/robot_description/rviz/display.rviz
+[0.940s] -- Up-to-date symlink: /home/smr/ros2_self_driving_robot/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
+[0.941s] -- Up-to-date symlink: /home/smr/ros2_self_driving_robot/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
+[0.941s] -- Up-to-date symlink: /home/smr/ros2_self_driving_robot/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
+[0.941s] -- Up-to-date symlink: /home/smr/ros2_self_driving_robot/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv
+[0.942s] -- Up-to-date symlink: /home/smr/ros2_self_driving_robot/install/robot_description/share/robot_description/environment/path.sh
+[0.942s] -- Up-to-date symlink: /home/smr/ros2_self_driving_robot/install/robot_description/share/robot_description/environment/path.dsv
+[0.943s] -- Up-to-date symlink: /home/smr/ros2_self_driving_robot/install/robot_description/share/robot_description/local_setup.bash
+[0.943s] -- Up-to-date symlink: /home/smr/ros2_self_driving_robot/install/robot_description/share/robot_description/local_setup.sh
+[0.943s] -- Up-to-date symlink: /home/smr/ros2_self_driving_robot/install/robot_description/share/robot_description/local_setup.zsh
+[0.943s] -- Up-to-date symlink: /home/smr/ros2_self_driving_robot/install/robot_description/share/robot_description/local_setup.dsv
+[0.943s] -- Symlinking: /home/smr/ros2_self_driving_robot/install/robot_description/share/robot_description/package.dsv
+[0.970s] -- Up-to-date symlink: /home/smr/ros2_self_driving_robot/install/robot_description/share/ament_index/resource_index/packages/robot_description
+[0.971s] -- Up-to-date symlink: /home/smr/ros2_self_driving_robot/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake
+[0.971s] -- Up-to-date symlink: /home/smr/ros2_self_driving_robot/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake
+[0.972s] -- Up-to-date symlink: /home/smr/ros2_self_driving_robot/install/robot_description/share/robot_description/package.xml
+[0.975s] Invoked command in '/home/smr/ros2_self_driving_robot/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/smr/ros2_self_driving_robot/build/robot_description
