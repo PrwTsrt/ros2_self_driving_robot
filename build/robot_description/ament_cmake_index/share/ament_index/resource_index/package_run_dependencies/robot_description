@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 rclcpp;std_msgs;robot_state_publisher;urdf;joint_state_publisher_gui;rviz2;ros2launch;ament_lint_auto;ament_lint_common
+=======
+robot_state_publisher;urdf;joint_state_publisher_gui;rviz2;xacro;gazebo_ros;ros2launch;gazebo_ros_pkgs;gazebo_plugins;gazebo_ros2_control;ament_lint_auto;ament_lint_common
+>>>>>>> 267328f (Initial commit)

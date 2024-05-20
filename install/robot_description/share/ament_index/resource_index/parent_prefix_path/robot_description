@@ -1,1 +1,5 @@
+<<<<<<< HEAD
 /home/p_rawicht/bb_ws/install/robot_description:/opt/ros/humble
+=======
+/home/p_rawicht/bb_ws/install/robot_description:/home/p_rawicht/bb_ws/install/my_package:/opt/ros/humble
+>>>>>>> 267328f (Initial commit)

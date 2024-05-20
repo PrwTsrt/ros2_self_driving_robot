@@ -5,7 +5,11 @@ set(robot_description_BUILD_DEPENDS )
 set(robot_description_BUILDTOOL_DEPENDS "ament_cmake")
 set(robot_description_BUILD_EXPORT_DEPENDS )
 set(robot_description_BUILDTOOL_EXPORT_DEPENDS )
+<<<<<<< HEAD
 set(robot_description_EXEC_DEPENDS "rclcpp" "std_msgs" "robot_state_publisher" "urdf" "joint_state_publisher_gui" "rviz2" "ros2launch")
+=======
+set(robot_description_EXEC_DEPENDS "robot_state_publisher" "urdf" "joint_state_publisher_gui" "rviz2" "xacro" "gazebo_ros" "ros2launch" "gazebo_ros_pkgs" "gazebo_plugins" "gazebo_ros2_control")
+>>>>>>> 267328f (Initial commit)
 set(robot_description_TEST_DEPENDS "ament_lint_auto" "ament_lint_common")
 set(robot_description_GROUP_DEPENDS )
 set(robot_description_MEMBER_OF_GROUPS )

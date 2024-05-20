@@ -1,0 +1,6 @@
+Invoking command in '/home/p_rawicht/bb_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/p_rawicht/bb_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/p_rawicht/bb_ws/install/my_package
+Invoked command in '/home/p_rawicht/bb_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/p_rawicht/bb_ws/src/my_package -DCMAKE_INSTALL_PREFIX=/home/p_rawicht/bb_ws/install/my_package
+Invoking command in '/home/p_rawicht/bb_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/p_rawicht/bb_ws/build/my_package -- -j20 -l20
+Invoked command in '/home/p_rawicht/bb_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/p_rawicht/bb_ws/build/my_package -- -j20 -l20
+Invoking command in '/home/p_rawicht/bb_ws/build/my_package': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/p_rawicht/bb_ws/build/my_package
+Invoked command in '/home/p_rawicht/bb_ws/build/my_package' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/p_rawicht/bb_ws/build/my_package

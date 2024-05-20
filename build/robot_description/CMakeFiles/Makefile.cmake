@@ -14,6 +14,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "ament_cmake_package_templates/templates.cmake"
   "/home/p_rawicht/bb_ws/src/robot_description/CMakeLists.txt"
   "/home/p_rawicht/bb_ws/src/robot_description/package.xml"
+<<<<<<< HEAD
   "/opt/ros/humble/cmake/yamlConfig.cmake"
   "/opt/ros/humble/cmake/yamlConfigVersion.cmake"
   "/opt/ros/humble/cmake/yamlTargets-none.cmake"
@@ -25,6 +26,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/ros/humble/lib/foonathan_memory/cmake/foonathan_memory-config-none.cmake"
   "/opt/ros/humble/lib/foonathan_memory/cmake/foonathan_memory-config-version.cmake"
   "/opt/ros/humble/lib/foonathan_memory/cmake/foonathan_memory-config.cmake"
+=======
+>>>>>>> 267328f (Initial commit)
   "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/package_level/local_setup.bash.in"
   "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/package_level/local_setup.sh.in"
   "/opt/ros/humble/lib/python3.10/site-packages/ament_package/template/package_level/local_setup.zsh.in"
@@ -185,6 +188,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/ros/humble/share/ament_lint_common/cmake/ament_cmake_export_dependencies-extras.cmake"
   "/opt/ros/humble/share/ament_lint_common/cmake/ament_lint_commonConfig-version.cmake"
   "/opt/ros/humble/share/ament_lint_common/cmake/ament_lint_commonConfig.cmake"
+<<<<<<< HEAD
   "/opt/ros/humble/share/builtin_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake"
   "/opt/ros/humble/share/builtin_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake"
   "/opt/ros/humble/share/builtin_interfaces/cmake/ament_cmake_export_libraries-extras.cmake"
@@ -211,6 +215,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/ros/humble/share/builtin_interfaces/cmake/rosidl_cmake-extras.cmake"
   "/opt/ros/humble/share/builtin_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake"
   "/opt/ros/humble/share/builtin_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake"
+=======
+>>>>>>> 267328f (Initial commit)
   "/opt/ros/humble/share/class_loader/cmake/ament_cmake_export_dependencies-extras.cmake"
   "/opt/ros/humble/share/class_loader/cmake/ament_cmake_export_targets-extras.cmake"
   "/opt/ros/humble/share/class_loader/cmake/class_loader-extras.cmake"
@@ -219,6 +225,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/ros/humble/share/class_loader/cmake/class_loaderExport-none.cmake"
   "/opt/ros/humble/share/class_loader/cmake/class_loaderExport.cmake"
   "/opt/ros/humble/share/class_loader/cmake/class_loader_hide_library_symbols.cmake"
+<<<<<<< HEAD
   "/opt/ros/humble/share/fastrtps/cmake/fast-discovery-server-targets-none.cmake"
   "/opt/ros/humble/share/fastrtps/cmake/fast-discovery-server-targets.cmake"
   "/opt/ros/humble/share/fastrtps/cmake/fastrtps-config-version.cmake"
@@ -244,6 +251,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/ros/humble/share/libyaml_vendor/cmake/libyaml_vendor-extras.cmake"
   "/opt/ros/humble/share/libyaml_vendor/cmake/libyaml_vendorConfig-version.cmake"
   "/opt/ros/humble/share/libyaml_vendor/cmake/libyaml_vendorConfig.cmake"
+=======
+>>>>>>> 267328f (Initial commit)
   "/opt/ros/humble/share/pluginlib/cmake/ament_cmake_export_dependencies-extras.cmake"
   "/opt/ros/humble/share/pluginlib/cmake/ament_cmake_export_targets-extras.cmake"
   "/opt/ros/humble/share/pluginlib/cmake/export_pluginlibExport.cmake"
@@ -253,6 +262,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/ros/humble/share/pluginlib/cmake/pluginlib_enable_plugin_testing.cmake"
   "/opt/ros/humble/share/pluginlib/cmake/pluginlib_export_plugin_description_file.cmake"
   "/opt/ros/humble/share/pluginlib/cmake/pluginlib_package_hook.cmake"
+<<<<<<< HEAD
   "/opt/ros/humble/share/rcl/cmake/ament_cmake_export_dependencies-extras.cmake"
   "/opt/ros/humble/share/rcl/cmake/ament_cmake_export_include_directories-extras.cmake"
   "/opt/ros/humble/share/rcl/cmake/ament_cmake_export_libraries-extras.cmake"
@@ -319,6 +329,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/ros/humble/share/rclcpp/cmake/rclcppConfig.cmake"
   "/opt/ros/humble/share/rclcpp/cmake/rclcppExport-none.cmake"
   "/opt/ros/humble/share/rclcpp/cmake/rclcppExport.cmake"
+=======
+>>>>>>> 267328f (Initial commit)
   "/opt/ros/humble/share/rcpputils/cmake/ament_cmake_export_dependencies-extras.cmake"
   "/opt/ros/humble/share/rcpputils/cmake/ament_cmake_export_include_directories-extras.cmake"
   "/opt/ros/humble/share/rcpputils/cmake/ament_cmake_export_libraries-extras.cmake"
@@ -336,6 +348,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/ros/humble/share/rcutils/cmake/rcutilsConfig.cmake"
   "/opt/ros/humble/share/rcutils/cmake/rcutilsExport-none.cmake"
   "/opt/ros/humble/share/rcutils/cmake/rcutilsExport.cmake"
+<<<<<<< HEAD
   "/opt/ros/humble/share/rmw/cmake/ament_cmake_export_dependencies-extras.cmake"
   "/opt/ros/humble/share/rmw/cmake/ament_cmake_export_include_directories-extras.cmake"
   "/opt/ros/humble/share/rmw/cmake/ament_cmake_export_libraries-extras.cmake"
@@ -588,10 +601,13 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/ros/humble/share/std_msgs/cmake/std_msgs__rosidl_typesupport_introspection_cExport.cmake"
   "/opt/ros/humble/share/std_msgs/cmake/std_msgs__rosidl_typesupport_introspection_cppExport-none.cmake"
   "/opt/ros/humble/share/std_msgs/cmake/std_msgs__rosidl_typesupport_introspection_cppExport.cmake"
+=======
+>>>>>>> 267328f (Initial commit)
   "/opt/ros/humble/share/tinyxml2_vendor/cmake/Modules/FindTinyXML2.cmake"
   "/opt/ros/humble/share/tinyxml2_vendor/cmake/tinyxml2_vendor-extras.cmake"
   "/opt/ros/humble/share/tinyxml2_vendor/cmake/tinyxml2_vendorConfig-version.cmake"
   "/opt/ros/humble/share/tinyxml2_vendor/cmake/tinyxml2_vendorConfig.cmake"
+<<<<<<< HEAD
   "/opt/ros/humble/share/tracetools/cmake/ament_cmake_export_include_directories-extras.cmake"
   "/opt/ros/humble/share/tracetools/cmake/ament_cmake_export_libraries-extras.cmake"
   "/opt/ros/humble/share/tracetools/cmake/ament_cmake_export_targets-extras.cmake"
@@ -599,6 +615,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/ros/humble/share/tracetools/cmake/tracetoolsConfig.cmake"
   "/opt/ros/humble/share/tracetools/cmake/tracetools_exportExport-none.cmake"
   "/opt/ros/humble/share/tracetools/cmake/tracetools_exportExport.cmake"
+=======
+>>>>>>> 267328f (Initial commit)
   "/opt/ros/humble/share/urdf/cmake/ament_cmake_export_dependencies-extras.cmake"
   "/opt/ros/humble/share/urdf/cmake/ament_cmake_export_include_directories-extras.cmake"
   "/opt/ros/humble/share/urdf/cmake/ament_cmake_export_libraries-extras.cmake"
@@ -612,6 +630,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/opt/ros/humble/share/urdf_parser_plugin/cmake/urdf_parser_plugin-exportExport.cmake"
   "/opt/ros/humble/share/urdf_parser_plugin/cmake/urdf_parser_pluginConfig-version.cmake"
   "/opt/ros/humble/share/urdf_parser_plugin/cmake/urdf_parser_pluginConfig.cmake"
+<<<<<<< HEAD
   "/usr/lib/x86_64-linux-gnu/cmake/fmt/fmt-config-version.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/fmt/fmt-config.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/fmt/fmt-targets-none.cmake"
@@ -620,6 +639,8 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/lib/x86_64-linux-gnu/cmake/spdlog/spdlogConfigTargets-none.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/spdlog/spdlogConfigTargets.cmake"
   "/usr/lib/x86_64-linux-gnu/cmake/spdlog/spdlogConfigVersion.cmake"
+=======
+>>>>>>> 267328f (Initial commit)
   "/usr/lib/x86_64-linux-gnu/console_bridge/cmake/console_bridge-config-version.cmake"
   "/usr/lib/x86_64-linux-gnu/console_bridge/cmake/console_bridge-config.cmake"
   "/usr/lib/x86_64-linux-gnu/console_bridge/cmake/console_bridge-targets-none.cmake"
@@ -628,6 +649,7 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/local/lib/cmake/tinyxml2/tinyxml2-config.cmake"
   "/usr/local/lib/cmake/tinyxml2/tinyxml2-static-targets-noconfig.cmake"
   "/usr/local/lib/cmake/tinyxml2/tinyxml2-static-targets.cmake"
+<<<<<<< HEAD
   "/usr/share/cmake-3.22/Modules/CMakeCCompiler.cmake.in"
   "/usr/share/cmake-3.22/Modules/CMakeCCompilerABI.c"
   "/usr/share/cmake-3.22/Modules/CMakeCInformation.cmake"
@@ -724,6 +746,25 @@ set(CMAKE_MAKEFILE_DEPENDS
   "/usr/share/cmake-3.22/Modules/Internal/CheckSourceCompiles.cmake"
   "/usr/share/cmake-3.22/Modules/Internal/FeatureTesting.cmake"
   "/usr/share/cmake-3.22/Modules/Platform/Linux-Determine-CXX.cmake"
+=======
+  "/usr/share/cmake-3.22/Modules/CMakeCInformation.cmake"
+  "/usr/share/cmake-3.22/Modules/CMakeCXXInformation.cmake"
+  "/usr/share/cmake-3.22/Modules/CMakeCommonLanguageInclude.cmake"
+  "/usr/share/cmake-3.22/Modules/CMakeGenericSystem.cmake"
+  "/usr/share/cmake-3.22/Modules/CMakeInitializeConfigs.cmake"
+  "/usr/share/cmake-3.22/Modules/CMakeLanguageInformation.cmake"
+  "/usr/share/cmake-3.22/Modules/CMakeSystemSpecificInformation.cmake"
+  "/usr/share/cmake-3.22/Modules/CMakeSystemSpecificInitialize.cmake"
+  "/usr/share/cmake-3.22/Modules/Compiler/CMakeCommonCompilerMacros.cmake"
+  "/usr/share/cmake-3.22/Modules/Compiler/GNU-C.cmake"
+  "/usr/share/cmake-3.22/Modules/Compiler/GNU-CXX.cmake"
+  "/usr/share/cmake-3.22/Modules/Compiler/GNU.cmake"
+  "/usr/share/cmake-3.22/Modules/DartConfiguration.tcl.in"
+  "/usr/share/cmake-3.22/Modules/FindPackageHandleStandardArgs.cmake"
+  "/usr/share/cmake-3.22/Modules/FindPackageMessage.cmake"
+  "/usr/share/cmake-3.22/Modules/FindPython/Support.cmake"
+  "/usr/share/cmake-3.22/Modules/FindPython3.cmake"
+>>>>>>> 267328f (Initial commit)
   "/usr/share/cmake-3.22/Modules/Platform/Linux-GNU-C.cmake"
   "/usr/share/cmake-3.22/Modules/Platform/Linux-GNU-CXX.cmake"
   "/usr/share/cmake-3.22/Modules/Platform/Linux-GNU.cmake"
@@ -739,11 +780,14 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
+<<<<<<< HEAD
   "CMakeFiles/3.22.1/CMakeSystem.cmake"
   "CMakeFiles/3.22.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeCXXCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeCCompiler.cmake"
   "CMakeFiles/3.22.1/CMakeCXXCompiler.cmake"
+=======
+>>>>>>> 267328f (Initial commit)
   "ament_cmake_core/stamps/templates_2_cmake.py.stamp"
   "ament_cmake_uninstall_target/ament_cmake_uninstall_target.cmake"
   "CTestConfiguration.ini"

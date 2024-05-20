@@ -1,0 +1,42 @@
+[0.010s] Invoking command in '/home/p_rawicht/bb_ws/build/robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/p_rawicht/bb_ws/src/robot_description -DCMAKE_INSTALL_PREFIX=/home/p_rawicht/bb_ws/install/robot_description
+[0.101s] -- The C compiler identification is GNU 11.4.0
+[0.461s] -- The CXX compiler identification is GNU 11.4.0
+[0.709s] -- Detecting C compiler ABI info
+[0.816s] -- Detecting C compiler ABI info - done
+[0.821s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.821s] -- Detecting C compile features
+[0.821s] -- Detecting C compile features - done
+[0.823s] -- Detecting CXX compiler ABI info
+[0.922s] -- Detecting CXX compiler ABI info - done
+[0.928s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.929s] -- Detecting CXX compile features
+[0.929s] -- Detecting CXX compile features - done
+[0.930s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.035s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.097s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[1.152s] -- Added test 'lint_cmake' to check CMake code style
+[1.152s] -- Added test 'xmllint' to check XML markup files
+[1.155s] -- Configuring done
+[1.159s] -- Generating done
+[1.160s] -- Build files have been written to: /home/p_rawicht/bb_ws/build/robot_description
+[1.164s] Invoked command in '/home/p_rawicht/bb_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/p_rawicht/bb_ws/src/robot_description -DCMAKE_INSTALL_PREFIX=/home/p_rawicht/bb_ws/install/robot_description
+[1.165s] Invoking command in '/home/p_rawicht/bb_ws/build/robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/p_rawicht/bb_ws/build/robot_description -- -j20 -l20
+[1.184s] Invoked command in '/home/p_rawicht/bb_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/p_rawicht/bb_ws/build/robot_description -- -j20 -l20
+[1.205s] Invoking command in '/home/p_rawicht/bb_ws/build/robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/p_rawicht/bb_ws/build/robot_description
+[1.209s] -- Install configuration: ""
+[1.211s] -- Installing: /home/p_rawicht/bb_ws/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
+[1.211s] -- Installing: /home/p_rawicht/bb_ws/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
+[1.211s] -- Installing: /home/p_rawicht/bb_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
+[1.212s] -- Installing: /home/p_rawicht/bb_ws/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv
+[1.212s] -- Installing: /home/p_rawicht/bb_ws/install/robot_description/share/robot_description/environment/path.sh
+[1.212s] -- Installing: /home/p_rawicht/bb_ws/install/robot_description/share/robot_description/environment/path.dsv
+[1.212s] -- Installing: /home/p_rawicht/bb_ws/install/robot_description/share/robot_description/local_setup.bash
+[1.212s] -- Installing: /home/p_rawicht/bb_ws/install/robot_description/share/robot_description/local_setup.sh
+[1.212s] -- Installing: /home/p_rawicht/bb_ws/install/robot_description/share/robot_description/local_setup.zsh
+[1.212s] -- Installing: /home/p_rawicht/bb_ws/install/robot_description/share/robot_description/local_setup.dsv
+[1.212s] -- Installing: /home/p_rawicht/bb_ws/install/robot_description/share/robot_description/package.dsv
+[1.213s] -- Installing: /home/p_rawicht/bb_ws/install/robot_description/share/ament_index/resource_index/packages/robot_description
+[1.214s] -- Installing: /home/p_rawicht/bb_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake
+[1.214s] -- Installing: /home/p_rawicht/bb_ws/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake
+[1.214s] -- Installing: /home/p_rawicht/bb_ws/install/robot_description/share/robot_description/package.xml
+[1.224s] Invoked command in '/home/p_rawicht/bb_ws/build/robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/p_rawicht/bb_ws/build/robot_description
