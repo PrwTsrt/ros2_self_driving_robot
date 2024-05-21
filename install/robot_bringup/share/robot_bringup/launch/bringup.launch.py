@@ -52,22 +52,13 @@ def generate_launch_description():
             name='ekf_filter_node',
             output='screen',
             parameters=[os.path.join(robot_bringup_dir, "config", "ekf.yaml")],
-            # remappings=[("odometry/filtered", LaunchConfiguration("odom_topic"))]
         )
-    
-    # teleop = Node(
-    #         package='teleop_twist_keyboard',
-    #         executable='teleop_twist_keyboard',
-    #         name='teleop_twist_keyboard',
-    #         output='screen'
-    #        )
 
     return LaunchDescription([
         model_arg,
         joint_state_publisher_node,
         robot_state_publisher_node,
+        scan,
         rviz_node,
-        robot_localization,
-        # scan,
-        # teleop
+        robot_localization
     ])
