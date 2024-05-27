@@ -170,6 +170,57 @@
         <axis xyz="0 0 0" />
      </joint>
 
+     <link name="ranger_center_frame">
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <box size="0.015 0.04 0.025"/>
+            </geometry>
+            <material name="black"/>
+        </visual>
+     </link>
+
+     <joint name="ranger_center_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="ranger_center_frame" />
+        <origin xyz="0.1725 0 0.01" rpy="0 0 0"/>
+        <axis xyz="0 0 0" />
+     </joint>
+
+     <link name="ranger_left_frame">
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <box size="0.015 0.04 0.025"/>
+            </geometry>
+            <material name="black"/>
+        </visual>
+     </link>
+
+     <joint name="ranger_left_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="ranger_left_frame" />
+        <origin xyz="0.1625 0.08 0.01" rpy="0 0 0.6106"/>
+        <axis xyz="0 0 0" />
+     </joint>
+
+     <link name="ranger_right_frame">
+        <visual>
+            <origin xyz="0 0 0" rpy="0 0 0"/>
+            <geometry>
+                <box size="0.015 0.04 0.025"/>
+            </geometry>
+            <material name="black"/>
+        </visual>
+     </link>
+
+     <joint name="ranger_right_joint" type="fixed">
+        <parent link="base_link"/>
+        <child link="ranger_right_frame" />
+        <origin xyz="0.1625 -0.08 0.01" rpy="0 0 -0.6106"/>
+        <axis xyz="0 0 0" />
+     </joint>
+
 
 
 

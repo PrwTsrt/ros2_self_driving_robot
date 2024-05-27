@@ -5,6 +5,8 @@ from launch import LaunchDescription
 from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription
 from launch.substitutions import Command, LaunchConfiguration
 
+from launch.conditions import IfCondition
+
 from launch_ros.actions import Node
 from launch_ros.parameter_descriptions import ParameterValue
 
@@ -17,6 +19,18 @@ def generate_launch_description():
                                         robot_description_dir, "urdf", "bb_bot.urdf.xacro"
                                         ),
                                       description="Absolute path to robot urdf file")
+    
+    rviz_arg = DeclareLaunchArgument(
+            name='rviz', 
+            default_value='true',
+            description='Run rviz'
+        )
+    
+    sim_arg = DeclareLaunchArgument(
+            name='sim', 
+            default_value='false',
+            description='Enable use_sime_time to true'
+        )
 
     robot_description = ParameterValue(Command(["xacro ", LaunchConfiguration("model")]),
                                        value_type=str)
@@ -38,6 +52,8 @@ def generate_launch_description():
         name="rviz2",
         output="screen",
         arguments=["-d", os.path.join(robot_description_dir, "rviz", "bringup.rviz")],
+        condition=IfCondition(LaunchConfiguration("rviz")),
+        parameters=[{'use_sim_time': LaunchConfiguration("sim")}]
     )
     
     scan = IncludeLaunchDescription(os.path.join(
@@ -52,10 +68,13 @@ def generate_launch_description():
             name='ekf_filter_node',
             output='screen',
             parameters=[os.path.join(robot_bringup_dir, "config", "ekf.yaml")],
+            remappings=[("odometry/filtered", "odom")]
         )
 
     return LaunchDescription([
         model_arg,
+        sim_arg,
+        rviz_arg,
         joint_state_publisher_node,
         robot_state_publisher_node,
         scan,

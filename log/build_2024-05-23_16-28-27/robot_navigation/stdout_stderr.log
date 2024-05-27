@@ -1,0 +1,15 @@
+-- Install configuration: ""
+-- Up-to-date: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/launch
+-- Up-to-date: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/launch/slam.launch.py
+-- Installing: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/launch/navigation.launch.py
+-- Up-to-date: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/config
+-- Up-to-date: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/config/mapper_params_online_async.yaml
+-- Up-to-date: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/config/navigation.yaml
+-- Up-to-date: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/rviz
+-- Installing: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/rviz/slam.rviz
+[31mCMake Error at cmake_install.cmake:46 (file):
+  file INSTALL cannot find
+  "/home/smr/ros2_self_driving_robot/src/robot_navigation/map": No such file
+  or directory.
+
+[0m
