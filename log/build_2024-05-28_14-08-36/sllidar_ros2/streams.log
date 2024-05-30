@@ -1,0 +1,10 @@
+[0.052s] Invoking command in '/home/smr/ros2_self_driving_robot/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/smr/ros2_self_driving_robot/build/sllidar_ros2 -- -j8 -l8
+[0.281s] [ 90%] Built target sllidar_node
+[0.283s] [100%] Built target sllidar_client
+[0.316s] Invoked command in '/home/smr/ros2_self_driving_robot/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/smr/ros2_self_driving_robot/build/sllidar_ros2 -- -j8 -l8
+[0.494s] Invoking command in '/home/smr/ros2_self_driving_robot/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/smr/ros2_self_driving_robot/build/sllidar_ros2
+[0.504s] -- Install configuration: ""
+[0.504s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/sllidar_ros2/share/sllidar_ros2/launch
+[0.518s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/sllidar_ros2/share/sllidar_ros2/rviz
+[0.524s] -- Installing: /home/smr/ros2_self_driving_robot/install/sllidar_ros2/share/sllidar_ros2/package.dsv
+[0.531s] Invoked command in '/home/smr/ros2_self_driving_robot/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/smr/ros2_self_driving_robot/build/sllidar_ros2

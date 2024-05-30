@@ -1,0 +1,20 @@
+[1.472s] Invoking command in '/home/smr/ros2_self_driving_robot/src/python_pkg': PYTHONPATH=/home/smr/ros2_self_driving_robot/build/python_pkg/prefix_override:/home/smr/ros2_self_driving_robot/install/python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/python_pkg build --build-base /home/smr/ros2_self_driving_robot/build/python_pkg/build install --record /home/smr/ros2_self_driving_robot/build/python_pkg/install.log --single-version-externally-managed install_data
+[1.842s] running egg_info
+[1.843s] writing ../../build/python_pkg/python_pkg.egg-info/PKG-INFO
+[1.845s] writing dependency_links to ../../build/python_pkg/python_pkg.egg-info/dependency_links.txt
+[1.845s] writing entry points to ../../build/python_pkg/python_pkg.egg-info/entry_points.txt
+[1.846s] writing requirements to ../../build/python_pkg/python_pkg.egg-info/requires.txt
+[1.846s] writing top-level names to ../../build/python_pkg/python_pkg.egg-info/top_level.txt
+[1.849s] reading manifest file '../../build/python_pkg/python_pkg.egg-info/SOURCES.txt'
+[1.850s] writing manifest file '../../build/python_pkg/python_pkg.egg-info/SOURCES.txt'
+[1.851s] running build
+[1.851s] running build_py
+[1.852s] running install
+[1.853s] running install_lib
+[1.855s] running install_data
+[1.855s] running install_egg_info
+[1.858s] removing '/home/smr/ros2_self_driving_robot/install/python_pkg/lib/python3.10/site-packages/python_pkg-0.0.0-py3.10.egg-info' (and everything under it)
+[1.858s] Copying ../../build/python_pkg/python_pkg.egg-info to /home/smr/ros2_self_driving_robot/install/python_pkg/lib/python3.10/site-packages/python_pkg-0.0.0-py3.10.egg-info
+[1.859s] running install_scripts
+[1.886s] writing list of installed files to '/home/smr/ros2_self_driving_robot/build/python_pkg/install.log'
+[1.952s] Invoked command in '/home/smr/ros2_self_driving_robot/src/python_pkg' returned '0': PYTHONPATH=/home/smr/ros2_self_driving_robot/build/python_pkg/prefix_override:/home/smr/ros2_self_driving_robot/install/python_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/python_pkg build --build-base /home/smr/ros2_self_driving_robot/build/python_pkg/build install --record /home/smr/ros2_self_driving_robot/build/python_pkg/install.log --single-version-externally-managed install_data

@@ -1,4 +1,7 @@
 /home/smr/ros2_self_driving_robot/install/robot_bringup/share/robot_bringup/launch/bringup.launch.py
+/home/smr/ros2_self_driving_robot/install/robot_bringup/share/robot_bringup/launch/micro_ros.launch.py
+/home/smr/ros2_self_driving_robot/install/robot_bringup/share/robot_bringup/launch/camera.launch.py
+/home/smr/ros2_self_driving_robot/install/robot_bringup/share/robot_bringup/config/usbcam.yaml
 /home/smr/ros2_self_driving_robot/install/robot_bringup/share/robot_bringup/config/ekf.yaml
 /home/smr/ros2_self_driving_robot/install/robot_bringup/share/ament_index/resource_index/package_run_dependencies/robot_bringup
 /home/smr/ros2_self_driving_robot/install/robot_bringup/share/ament_index/resource_index/parent_prefix_path/robot_bringup

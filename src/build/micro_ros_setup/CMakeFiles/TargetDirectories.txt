@@ -1,0 +1,9 @@
+/home/smr/ros2_self_driving_robot/src/build/micro_ros_setup/CMakeFiles/uninstall.dir
+/home/smr/ros2_self_driving_robot/src/build/micro_ros_setup/CMakeFiles/micro_ros_setup_uninstall.dir
+/home/smr/ros2_self_driving_robot/src/build/micro_ros_setup/CMakeFiles/test.dir
+/home/smr/ros2_self_driving_robot/src/build/micro_ros_setup/CMakeFiles/edit_cache.dir
+/home/smr/ros2_self_driving_robot/src/build/micro_ros_setup/CMakeFiles/rebuild_cache.dir
+/home/smr/ros2_self_driving_robot/src/build/micro_ros_setup/CMakeFiles/list_install_components.dir
+/home/smr/ros2_self_driving_robot/src/build/micro_ros_setup/CMakeFiles/install.dir
+/home/smr/ros2_self_driving_robot/src/build/micro_ros_setup/CMakeFiles/install/local.dir
+/home/smr/ros2_self_driving_robot/src/build/micro_ros_setup/CMakeFiles/install/strip.dir

@@ -2,7 +2,7 @@ import os
 from ament_index_python.packages import get_package_share_directory
 
 from launch import LaunchDescription
-from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription
+from launch.actions import DeclareLaunchArgument, IncludeLaunchDescription, TimerAction
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.substitutions import LaunchConfiguration, PathJoinSubstitution
 from launch_ros.substitutions import FindPackageShare
@@ -56,7 +56,6 @@ def generate_launch_description():
                 [nav2_dir, 'launch', 'navigation_launch.py']
             )),
             launch_arguments={
-                # 'map' : LaunchConfiguration("map"),
                 'use_sim_time': LaunchConfiguration("sim"),
                 'params_file':  PathJoinSubstitution(
                     [robot_navigation_dir, "config", "navigation.yaml"]),
@@ -70,10 +69,20 @@ def generate_launch_description():
             launch_arguments={
                 'map' : LaunchConfiguration("map"),
                 'use_sim_time': LaunchConfiguration("sim"),
-                # 'params_file':  PathJoinSubstitution(
-                #     [robot_navigation_dir, "config", "navigation.yaml"])
             }.items()
         )
+    # collision_monitor =  TimerAction(
+    #     period=5.0,  
+    #     actions=[IncludeLaunchDescription(
+    #     PythonLaunchDescriptionSource(PathJoinSubstitution(
+    #             [robot_navigation_dir, 'launch', 'collision_monitor_node.launch.py']
+    #         ))
+    #     )])
+    
+    collision_monitor = IncludeLaunchDescription(
+        PythonLaunchDescriptionSource(PathJoinSubstitution(
+                [robot_navigation_dir, 'launch', 'collision_monitor_node.launch.py']
+            )))
 
     return LaunchDescription([
         map_arg,
@@ -81,5 +90,6 @@ def generate_launch_description():
         bringup,
         amcl,
         nav,
+        # collision_monitor,
         rviz_node,
     ])

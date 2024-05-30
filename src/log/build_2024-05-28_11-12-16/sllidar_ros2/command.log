@@ -1,0 +1,6 @@
+Invoking command in '/home/smr/ros2_self_driving_robot/src/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/smr/ros2_self_driving_robot/src/sllidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/smr/ros2_self_driving_robot/src/install/sllidar_ros2
+Invoked command in '/home/smr/ros2_self_driving_robot/src/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/smr/ros2_self_driving_robot/src/sllidar_ros2 -DCMAKE_INSTALL_PREFIX=/home/smr/ros2_self_driving_robot/src/install/sllidar_ros2
+Invoking command in '/home/smr/ros2_self_driving_robot/src/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/smr/ros2_self_driving_robot/src/build/sllidar_ros2 -- -j8 -l8
+Invoked command in '/home/smr/ros2_self_driving_robot/src/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/smr/ros2_self_driving_robot/src/build/sllidar_ros2 -- -j8 -l8
+Invoking command in '/home/smr/ros2_self_driving_robot/src/build/sllidar_ros2': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/smr/ros2_self_driving_robot/src/build/sllidar_ros2
+Invoked command in '/home/smr/ros2_self_driving_robot/src/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/smr/ros2_self_driving_robot/src/build/sllidar_ros2

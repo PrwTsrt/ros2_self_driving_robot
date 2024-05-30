@@ -1,0 +1,31 @@
+running egg_info
+creating ../../build/python_pkg/python_pkg.egg-info
+writing ../../build/python_pkg/python_pkg.egg-info/PKG-INFO
+writing dependency_links to ../../build/python_pkg/python_pkg.egg-info/dependency_links.txt
+writing entry points to ../../build/python_pkg/python_pkg.egg-info/entry_points.txt
+writing requirements to ../../build/python_pkg/python_pkg.egg-info/requires.txt
+writing top-level names to ../../build/python_pkg/python_pkg.egg-info/top_level.txt
+writing manifest file '../../build/python_pkg/python_pkg.egg-info/SOURCES.txt'
+reading manifest file '../../build/python_pkg/python_pkg.egg-info/SOURCES.txt'
+writing manifest file '../../build/python_pkg/python_pkg.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/smr/ros2_self_driving_robot/build/python_pkg/build
+creating /home/smr/ros2_self_driving_robot/build/python_pkg/build/lib
+creating /home/smr/ros2_self_driving_robot/build/python_pkg/build/lib/python_pkg
+copying python_pkg/__init__.py -> /home/smr/ros2_self_driving_robot/build/python_pkg/build/lib/python_pkg
+running install
+running install_lib
+creating /home/smr/ros2_self_driving_robot/install/python_pkg/lib/python3.10/site-packages/python_pkg
+copying /home/smr/ros2_self_driving_robot/build/python_pkg/build/lib/python_pkg/__init__.py -> /home/smr/ros2_self_driving_robot/install/python_pkg/lib/python3.10/site-packages/python_pkg
+byte-compiling /home/smr/ros2_self_driving_robot/install/python_pkg/lib/python3.10/site-packages/python_pkg/__init__.py to __init__.cpython-310.pyc
+running install_data
+creating /home/smr/ros2_self_driving_robot/install/python_pkg/share/ament_index
+creating /home/smr/ros2_self_driving_robot/install/python_pkg/share/ament_index/resource_index
+creating /home/smr/ros2_self_driving_robot/install/python_pkg/share/ament_index/resource_index/packages
+copying resource/python_pkg -> /home/smr/ros2_self_driving_robot/install/python_pkg/share/ament_index/resource_index/packages
+copying package.xml -> /home/smr/ros2_self_driving_robot/install/python_pkg/share/python_pkg
+running install_egg_info
+Copying ../../build/python_pkg/python_pkg.egg-info to /home/smr/ros2_self_driving_robot/install/python_pkg/lib/python3.10/site-packages/python_pkg-0.0.0-py3.10.egg-info
+running install_scripts
+writing list of installed files to '/home/smr/ros2_self_driving_robot/build/python_pkg/install.log'

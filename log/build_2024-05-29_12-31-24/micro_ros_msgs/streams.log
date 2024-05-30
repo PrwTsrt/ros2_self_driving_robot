@@ -1,0 +1,180 @@
+[0.046s] Invoking command in '/home/smr/ros2_self_driving_robot/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/smr/ros2_self_driving_robot/build/micro_ros_msgs -- -j8 -l8
+[0.190s] [ 10%] Built target micro_ros_msgs__rosidl_generator_c
+[0.205s] [ 12%] Built target micro_ros_msgs__cpp
+[0.243s] [ 12%] Built target ament_cmake_python_copy_micro_ros_msgs
+[0.310s] [ 23%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c
+[0.311s] [ 34%] Built target micro_ros_msgs__rosidl_typesupport_cpp
+[0.311s] [ 44%] Built target micro_ros_msgs__rosidl_typesupport_c
+[0.312s] [ 55%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c
+[0.322s] [ 65%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_cpp
+[0.323s] [ 76%] Built target micro_ros_msgs__rosidl_typesupport_introspection_cpp
+[0.326s] [ 76%] Built target micro_ros_msgs
+[0.374s] [ 78%] Built target micro_ros_msgs__py
+[0.434s] [ 87%] Built target micro_ros_msgs__rosidl_generator_py
+[0.500s] [ 91%] Built target micro_ros_msgs__rosidl_typesupport_introspection_c__pyext
+[0.507s] [ 95%] Built target micro_ros_msgs__rosidl_typesupport_c__pyext
+[0.516s] [100%] Built target micro_ros_msgs__rosidl_typesupport_fastrtps_c__pyext
+[0.672s] running egg_info
+[0.673s] writing micro_ros_msgs.egg-info/PKG-INFO
+[0.673s] writing dependency_links to micro_ros_msgs.egg-info/dependency_links.txt
+[0.674s] writing top-level names to micro_ros_msgs.egg-info/top_level.txt
+[0.678s] reading manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'
+[0.678s] writing manifest file 'micro_ros_msgs.egg-info/SOURCES.txt'
+[0.750s] [100%] Built target ament_cmake_python_build_micro_ros_msgs_egg
+[0.789s] Invoked command in '/home/smr/ros2_self_driving_robot/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/smr/ros2_self_driving_robot/build/micro_ros_msgs -- -j8 -l8
+[1.072s] Invoking command in '/home/smr/ros2_self_driving_robot/build/micro_ros_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/smr/ros2_self_driving_robot/build/micro_ros_msgs
+[1.098s] -- Install configuration: ""
+[1.098s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/share/ament_index/resource_index/rosidl_interfaces/micro_ros_msgs
+[1.099s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[1.099s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[1.099s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.h
+[1.099s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.h
+[1.099s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_generator_c__visibility_control.h
+[1.100s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.h
+[1.102s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[1.102s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.h
+[1.102s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.h
+[1.103s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.h
+[1.103s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.h
+[1.104s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.h
+[1.104s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.h
+[1.105s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__functions.c
+[1.106s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.h
+[1.107s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__functions.c
+[1.107s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.h
+[1.107s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__functions.c
+[1.108s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.h
+[1.108s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.sh
+[1.109s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/share/micro_ros_msgs/environment/library_path.dsv
+[1.109s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_c.so
+[1.110s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[1.110s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[1.110s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.111s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[1.111s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_c.h
+[1.112s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_c.h
+[1.112s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_c.h
+[1.112s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_c.so
+[1.113s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[1.113s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[1.113s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.114s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[1.114s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.c
+[1.115s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.c
+[1.115s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_c.h
+[1.115s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_c.h
+[1.116s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_c.h
+[1.116s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.c
+[1.116s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_c.so
+[1.117s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_c.so
+[1.117s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[1.117s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[1.118s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/graph.hpp
+[1.118s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/node.hpp
+[1.119s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[1.119s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__builder.hpp
+[1.119s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__struct.hpp
+[1.120s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__builder.hpp
+[1.120s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__traits.hpp
+[1.121s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__struct.hpp
+[1.121s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__builder.hpp
+[1.121s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__struct.hpp
+[1.122s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__traits.hpp
+[1.122s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__traits.hpp
+[1.123s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/entity.hpp
+[1.123s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[1.123s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[1.124s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.124s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[1.124s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_fastrtps_cpp.hpp
+[1.125s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_fastrtps_cpp.hpp
+[1.125s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_fastrtps_cpp.hpp
+[1.126s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/dds_fastrtps
+[1.126s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_fastrtps_cpp.so
+[1.126s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs
+[1.127s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg
+[1.127s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail
+[1.128s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__type_support.cpp
+[1.129s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__type_support.cpp
+[1.130s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__rosidl_typesupport_introspection_cpp.hpp
+[1.131s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/graph__rosidl_typesupport_introspection_cpp.hpp
+[1.131s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/entity__rosidl_typesupport_introspection_cpp.hpp
+[1.132s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/include/micro_ros_msgs/micro_ros_msgs/msg/detail/node__type_support.cpp
+[1.133s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_introspection_cpp.so
+[1.134s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_typesupport_cpp.so
+[1.135s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.sh
+[1.135s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/share/micro_ros_msgs/environment/pythonpath.dsv
+[1.136s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info
+[1.136s] -- Installing: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/SOURCES.txt
+[1.136s] -- Installing: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/PKG-INFO
+[1.137s] -- Installing: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/top_level.txt
+[1.137s] -- Installing: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs-3.0.1-py3.10.egg-info/dependency_links.txt
+[1.137s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs
+[1.138s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/libmicro_ros_msgs__rosidl_generator_py.so
+[1.138s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg
+[1.139s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_entity.py
+[1.139s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_graph_s.c
+[1.139s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_entity_s.c
+[1.140s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_graph.py
+[1.140s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_node_s.c
+[1.141s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/__init__.py
+[1.141s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg/_node.py
+[1.142s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_c.c
+[1.142s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[1.143s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[1.144s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/_micro_ros_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.144s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/__init__.py
+[1.144s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[1.145s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[1.187s] Listing '/home/smr/ros2_self_driving_robot/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs'...
+[1.188s] Listing '/home/smr/ros2_self_driving_robot/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/msg'...
+[1.193s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[1.194s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[1.194s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/local/lib/python3.10/dist-packages/micro_ros_msgs/micro_ros_msgs_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[1.195s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/lib/libmicro_ros_msgs__rosidl_generator_py.so
+[1.195s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.idl
+[1.195s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.idl
+[1.196s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.idl
+[1.196s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/share/micro_ros_msgs/msg/Graph.msg
+[1.197s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/share/micro_ros_msgs/msg/Node.msg
+[1.197s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/share/micro_ros_msgs/msg/Entity.msg
+[1.197s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/share/ament_index/resource_index/package_run_dependencies/micro_ros_msgs
+[1.198s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/share/ament_index/resource_index/parent_prefix_path/micro_ros_msgs
+[1.198s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.sh
+[1.199s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/share/micro_ros_msgs/environment/ament_prefix_path.dsv
+[1.199s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.sh
+[1.199s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/share/micro_ros_msgs/environment/path.dsv
+[1.200s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.bash
+[1.201s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.sh
+[1.202s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.zsh
+[1.206s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/share/micro_ros_msgs/local_setup.dsv
+[1.207s] -- Installing: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/share/micro_ros_msgs/package.dsv
+[1.207s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/share/ament_index/resource_index/packages/micro_ros_msgs
+[1.208s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport.cmake
+[1.208s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cExport-noconfig.cmake
+[1.210s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[1.211s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.211s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport.cmake
+[1.212s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.213s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport.cmake
+[1.213s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[1.214s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_cppExport.cmake
+[1.215s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.215s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.216s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[1.216s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.217s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport.cmake
+[1.217s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[1.218s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport.cmake
+[1.218s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/share/micro_ros_msgs/cmake/export_micro_ros_msgs__rosidl_generator_pyExport-noconfig.cmake
+[1.219s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake-extras.cmake
+[1.220s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.220s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[1.221s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[1.221s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.222s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/share/micro_ros_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.222s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/share/micro_ros_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.223s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig.cmake
+[1.223s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/share/micro_ros_msgs/cmake/micro_ros_msgsConfig-version.cmake
+[1.224s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/micro_ros_msgs/share/micro_ros_msgs/package.xml
+[1.225s] Invoked command in '/home/smr/ros2_self_driving_robot/build/micro_ros_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/smr/ros2_self_driving_robot/build/micro_ros_msgs

@@ -6,6 +6,7 @@
 #include <rclc/executor.h>
 
 #include <micro_ros_utilities/string_utilities.h>
+#include <rmw_microros/rmw_microros.h>
 
 #include <std_msgs/msg/bool.h>
 #include <sensor_msgs/msg/range.h>
@@ -14,6 +15,8 @@
 #if !defined(MICRO_ROS_TRANSPORT_ARDUINO_SERIAL)
 #error This example is only avaliable for Arduino framework with serial transport.
 #endif
+
+#define ROS_DOMAIN_ID 19
 
 rcl_publisher_t publisher_range_left, publisher_range_center, publisher_range_right, 
   publisher_bump_state;
@@ -26,6 +29,8 @@ rcl_allocator_t allocator;
 rcl_node_t node;
 rcl_timer_t timer;
 
+rcl_init_options_t init_options;
+
 #define RCCHECK(fn) { rcl_ret_t temp_rc = fn; if((temp_rc != RCL_RET_OK)){error_loop();}}
 #define RCSOFTCHECK(fn) { rcl_ret_t temp_rc = fn; if((temp_rc != RCL_RET_OK)){}}
 
@@ -35,7 +40,9 @@ Ultrasonic ranger[3] = {
   Ultrasonic(3)
 };
 
+const int LED_PIN = 26 ;
 const int bumper_pin = 6;
+
 // Timeout for each ping attempt
 const int timeout_ms = 100;
 // Number of ping attempts
@@ -48,7 +55,7 @@ enum states {
     AGENT_AVAILABLE,
     AGENT_CONNECTED,
     AGENT_DISCONNECTED
-} state; // Initialize the state variable
+} state;
 
 // Error handle loop
 void error_loop() {
@@ -66,11 +73,12 @@ void timer_callback(rcl_timer_t * timer, int64_t last_call_time) {
     if (range[i] > 0.5) range[i] = 0.5;
   }
 
+  msg_bump_state.data = digitalRead(bumper_pin);
+  msg_bump_state.data ? range[1] = 0.0 : range[1] = range[1];
+
   msg_range_left.range =range[0];
   msg_range_center.range = range[1];
   msg_range_right.range = range[2];
-
-  msg_bump_state.data = digitalRead(bumper_pin);
 
   if (timer != NULL) {
     RCSOFTCHECK(rcl_publish(&publisher_range_left, &msg_range_left, NULL));
@@ -89,11 +97,17 @@ void range_msgs_init(sensor_msgs__msg__Range &range_msg, const char *frame_id_na
 }
 
 bool create_entities(void) {
-
+  
+  init_options = rcl_get_zero_initialized_init_options();
   allocator = rcl_get_default_allocator();
 
+  RCCHECK(rcl_init_options_init(&init_options, allocator));
+  
+  size_t domain_id = (size_t)(ROS_DOMAIN_ID);
+  RCCHECK(rcl_init_options_set_domain_id(&init_options, domain_id));
+
   //create init_options
-  RCCHECK(rclc_support_init(&support, 0, NULL, &allocator));
+  RCCHECK(rclc_support_init_with_options(&support, 0, NULL, &init_options, &allocator));
 
   // create node
   RCCHECK(rclc_node_init_default(&node, "micro_ros_raspico_node", "", &support));
@@ -129,24 +143,36 @@ bool create_entities(void) {
     timer_callback));
 
   // create executor
+  executor = rclc_executor_get_zero_initialized_executor();
   RCCHECK(rclc_executor_init(&executor, &support.context, 1, &allocator));
   RCCHECK(rclc_executor_add_timer(&executor, &timer));
+
+ digitalWrite(LED_PIN, HIGH);
 
   return true;
 }
 
 void destroy_entities(void){
 
+  rmw_context_t * rmw_context = rcl_context_get_rmw_context(&support.context);
+  (void) rmw_uros_set_context_entity_destroy_session_timeout(rmw_context, 0);
+
   RCCHECK(rcl_publisher_fini(&publisher_range_left, &node));
   RCCHECK(rcl_publisher_fini(&publisher_range_center, &node));
   RCCHECK(rcl_publisher_fini(&publisher_range_right, &node));
   RCCHECK(rcl_publisher_fini(&publisher_bump_state, &node));
   RCCHECK(rcl_node_fini(&node)); 
+  RCCHECK(rcl_timer_fini(&timer));
+  RCCHECK(rclc_executor_fini(&executor));
+  RCCHECK(rclc_support_fini(&support));
+
+  digitalWrite(LED_PIN, LOW);
 
 }
 
 void setup() {
 
+  pinMode(LED_PIN, OUTPUT);
   // Configure serial transport
   Serial.begin(921600);
   set_microros_serial_transports(Serial);

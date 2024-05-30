@@ -1,0 +1,13 @@
+# Target labels
+ xrceagent
+# Source files and their labels
+/home/smr/ros2_self_driving_robot/src/build/micro_ros_agent/CMakeFiles/xrceagent
+/home/smr/ros2_self_driving_robot/src/build/micro_ros_agent/CMakeFiles/xrceagent.rule
+/home/smr/ros2_self_driving_robot/src/build/micro_ros_agent/CMakeFiles/xrceagent-complete.rule
+/home/smr/ros2_self_driving_robot/src/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-build.rule
+/home/smr/ros2_self_driving_robot/src/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-configure.rule
+/home/smr/ros2_self_driving_robot/src/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-download.rule
+/home/smr/ros2_self_driving_robot/src/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-install.rule
+/home/smr/ros2_self_driving_robot/src/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-mkdir.rule
+/home/smr/ros2_self_driving_robot/src/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-patch.rule
+/home/smr/ros2_self_driving_robot/src/build/micro_ros_agent/agent/src/xrceagent-stamp/xrceagent-update.rule

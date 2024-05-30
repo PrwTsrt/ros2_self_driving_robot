@@ -1,0 +1,65 @@
+[0.039s] Invoking command in '/home/smr/ros2_self_driving_robot/src/build/robot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/smr/ros2_self_driving_robot/src/robot_bringup -DCMAKE_INSTALL_PREFIX=/home/smr/ros2_self_driving_robot/src/install/robot_bringup
+[0.371s] -- The C compiler identification is GNU 11.4.0
+[0.698s] -- The CXX compiler identification is GNU 11.4.0
+[0.729s] -- Detecting C compiler ABI info
+[0.960s] -- Detecting C compiler ABI info - done
+[1.001s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.002s] -- Detecting C compile features
+[1.004s] -- Detecting C compile features - done
+[1.013s] -- Detecting CXX compiler ABI info
+[1.185s] -- Detecting CXX compiler ABI info - done
+[1.197s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.198s] -- Detecting CXX compile features
+[1.198s] -- Detecting CXX compile features - done
+[1.204s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.623s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[1.807s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[1.872s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.881s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.895s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.915s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.949s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.065s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.066s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[2.226s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[2.268s] -- Found FastRTPS: /opt/ros/humble/include  
+[2.397s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[2.398s] -- Looking for pthread.h
+[2.569s] -- Looking for pthread.h - found
+[2.570s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[2.805s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[2.808s] -- Found Threads: TRUE  
+[3.096s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[3.292s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.445s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.446s] -- Added test 'lint_cmake' to check CMake code style
+[3.447s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.448s] -- Added test 'xmllint' to check XML markup files
+[3.450s] -- Configuring done
+[3.458s] -- Generating done
+[3.460s] -- Build files have been written to: /home/smr/ros2_self_driving_robot/src/build/robot_bringup
+[3.478s] Invoked command in '/home/smr/ros2_self_driving_robot/src/build/robot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/smr/ros2_self_driving_robot/src/robot_bringup -DCMAKE_INSTALL_PREFIX=/home/smr/ros2_self_driving_robot/src/install/robot_bringup
+[3.483s] Invoking command in '/home/smr/ros2_self_driving_robot/src/build/robot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/smr/ros2_self_driving_robot/src/build/robot_bringup -- -j8 -l8
+[3.608s] Invoked command in '/home/smr/ros2_self_driving_robot/src/build/robot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/smr/ros2_self_driving_robot/src/build/robot_bringup -- -j8 -l8
+[3.674s] Invoking command in '/home/smr/ros2_self_driving_robot/src/build/robot_bringup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/smr/ros2_self_driving_robot/src/build/robot_bringup
+[3.700s] -- Install configuration: ""
+[3.700s] -- Installing: /home/smr/ros2_self_driving_robot/src/install/robot_bringup/share/robot_bringup/launch
+[3.701s] -- Installing: /home/smr/ros2_self_driving_robot/src/install/robot_bringup/share/robot_bringup/launch/bringup.launch.py
+[3.702s] -- Installing: /home/smr/ros2_self_driving_robot/src/install/robot_bringup/share/robot_bringup/config
+[3.703s] -- Installing: /home/smr/ros2_self_driving_robot/src/install/robot_bringup/share/robot_bringup/config/ekf.yaml
+[3.704s] -- Installing: /home/smr/ros2_self_driving_robot/src/install/robot_bringup/share/ament_index/resource_index/package_run_dependencies/robot_bringup
+[3.705s] -- Installing: /home/smr/ros2_self_driving_robot/src/install/robot_bringup/share/ament_index/resource_index/parent_prefix_path/robot_bringup
+[3.705s] -- Installing: /home/smr/ros2_self_driving_robot/src/install/robot_bringup/share/robot_bringup/environment/ament_prefix_path.sh
+[3.706s] -- Installing: /home/smr/ros2_self_driving_robot/src/install/robot_bringup/share/robot_bringup/environment/ament_prefix_path.dsv
+[3.706s] -- Installing: /home/smr/ros2_self_driving_robot/src/install/robot_bringup/share/robot_bringup/environment/path.sh
+[3.707s] -- Installing: /home/smr/ros2_self_driving_robot/src/install/robot_bringup/share/robot_bringup/environment/path.dsv
+[3.707s] -- Installing: /home/smr/ros2_self_driving_robot/src/install/robot_bringup/share/robot_bringup/local_setup.bash
+[3.708s] -- Installing: /home/smr/ros2_self_driving_robot/src/install/robot_bringup/share/robot_bringup/local_setup.sh
+[3.708s] -- Installing: /home/smr/ros2_self_driving_robot/src/install/robot_bringup/share/robot_bringup/local_setup.zsh
+[3.709s] -- Installing: /home/smr/ros2_self_driving_robot/src/install/robot_bringup/share/robot_bringup/local_setup.dsv
+[3.709s] -- Installing: /home/smr/ros2_self_driving_robot/src/install/robot_bringup/share/robot_bringup/package.dsv
+[3.710s] -- Installing: /home/smr/ros2_self_driving_robot/src/install/robot_bringup/share/ament_index/resource_index/packages/robot_bringup
+[3.711s] -- Installing: /home/smr/ros2_self_driving_robot/src/install/robot_bringup/share/robot_bringup/cmake/robot_bringupConfig.cmake
+[3.711s] -- Installing: /home/smr/ros2_self_driving_robot/src/install/robot_bringup/share/robot_bringup/cmake/robot_bringupConfig-version.cmake
+[3.711s] -- Installing: /home/smr/ros2_self_driving_robot/src/install/robot_bringup/share/robot_bringup/package.xml
+[3.720s] Invoked command in '/home/smr/ros2_self_driving_robot/src/build/robot_bringup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/smr/ros2_self_driving_robot/src/build/robot_bringup
