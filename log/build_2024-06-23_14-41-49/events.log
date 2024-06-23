@@ -1,0 +1,151 @@
+[0.000000] (-) TimerEvent: {}
+[0.000530] (-) JobUnselected: {'identifier': 'micro_ros_agent'}
+[0.000714] (-) JobUnselected: {'identifier': 'micro_ros_msgs'}
+[0.000899] (-) JobUnselected: {'identifier': 'micro_ros_setup'}
+[0.000964] (-) JobUnselected: {'identifier': 'nav2_behavior_plugin'}
+[0.001014] (-) JobUnselected: {'identifier': 'python_pkg'}
+[0.001061] (-) JobUnselected: {'identifier': 'robot_bringup'}
+[0.001107] (-) JobUnselected: {'identifier': 'robot_description'}
+[0.001153] (-) JobUnselected: {'identifier': 'robot_navigation'}
+[0.001233] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.001277] (my_nav2_behavior_tree) JobQueued: {'identifier': 'my_nav2_behavior_tree', 'dependencies': OrderedDict([('nav2_behavior_plugin', '/home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin')])}
+[0.001345] (my_nav2_behavior_tree) JobStarted: {'identifier': 'my_nav2_behavior_tree'}
+[0.020985] (my_nav2_behavior_tree) JobProgress: {'identifier': 'my_nav2_behavior_tree', 'progress': 'cmake'}
+[0.022078] (my_nav2_behavior_tree) JobProgress: {'identifier': 'my_nav2_behavior_tree', 'progress': 'build'}
+[0.023045] (my_nav2_behavior_tree) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/smr/ros2_self_driving_robot/build/my_nav2_behavior_tree', '--', '-j8', '-l8'], 'cwd': '/home/smr/ros2_self_driving_robot/build/my_nav2_behavior_tree', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LINOROBOT2_BASE', '2wd'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'smr'), ('LC_TIME', 'th_TH.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/lib:/home/smr/ros2_self_driving_robot/install/nav2_behavior_tree/lib:/home/smr/ros2_self_driving_robot/install/micro_ros_agent/lib:/home/smr/ros2_self_driving_robot/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/smr'), ('MUTTER_DEBUG_ENABLE_ATOMIC_KMS', '0'), ('OLDPWD', '/home/smr'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'th_TH.UTF-8'), ('MANAGERPID', '1149'), ('SYSTEMD_EXEC_PID', '1564'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2301'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/smr/ros2_self_driving_robot/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'smr'), ('JOURNAL_STREAM', '8:38174'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'smr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/smr/.platformio/penv/bin:/path/to/gcc-arm-none-eabi-9-2020-q2-update/bin:/path/to/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/smr/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/smr/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/smr/.platformio/penv/bin:/path/to/gcc-arm-none-eabi-9-2020-q2-update/bin:/path/to/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/smr/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/smr/gcc-arm-none-eabi-9-2020-q2-update/bin'), ('SESSION_MANAGER', 'local/orange-pi:@/tmp/.ICE-unix/1541,unix/orange-pi:/tmp/.ICE-unix/1541'), ('INVOCATION_ID', '59f61040f64049ab83f4b43e37b75f97'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '19'), ('AMENT_PREFIX_PATH', '/home/smr/ros2_self_driving_robot/install/sllidar_ros2:/home/smr/ros2_self_driving_robot/install/robot_navigation:/home/smr/ros2_self_driving_robot/install/robot_description:/home/smr/ros2_self_driving_robot/install/robot_bringup:/home/smr/ros2_self_driving_robot/install/python_pkg:/home/smr/ros2_self_driving_robot/install/nav2_behavior_tree:/home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin:/home/smr/ros2_self_driving_robot/install/micro_ros_setup:/home/smr/ros2_self_driving_robot/install/micro_ros_agent:/home/smr/ros2_self_driving_robot/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:38878a94-8e7e-43cc-a9f9-c87f3bb7d5eb'), ('CLUTTER_PAINT', 'disable-dynamic-max-render-time'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('MUTTER_DEBUG_FORCE_KMS_MODE', 'simple'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/smr/ros2_self_driving_robot/build/my_nav2_behavior_tree'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LINOROBOT2_DEPTH_SENSOR', 'realsense'), ('PYTHONPATH', '/home/smr/ros2_self_driving_robot/install/python_pkg/lib/python3.10/site-packages:/home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/local/lib/python3.10/dist-packages:/home/smr/ros2_self_driving_robot/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('LINOROBOT2_LASER_SENSOR', 'c1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin:/home/smr/ros2_self_driving_robot/install/sllidar_ros2:/home/smr/ros2_self_driving_robot/install/robot_navigation:/home/smr/ros2_self_driving_robot/install/robot_description:/home/smr/ros2_self_driving_robot/install/robot_bringup:/home/smr/ros2_self_driving_robot/install/nav2_behavior_tree:/home/smr/ros2_self_driving_robot/install/micro_ros_setup:/home/smr/ros2_self_driving_robot/install/micro_ros_agent:/home/smr/ros2_self_driving_robot/install/micro_ros_msgs:/opt/ros/humble:/home/smr/ros2_self_driving_robot/install/python_pkg')]), 'shell': False}
+[0.099692] (-) TimerEvent: {}
+[0.176148] (my_nav2_behavior_tree) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target nav2_obstacle_warning_action_bt_node\x1b[0m\n'}
+[0.199765] (-) TimerEvent: {}
+[0.243845] (my_nav2_behavior_tree) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/nav2_obstacle_warning_action_bt_node.dir/src/obstacle_warning_action.cpp.o\x1b[0m\n'}
+[0.299897] (-) TimerEvent: {}
+[0.400408] (-) TimerEvent: {}
+[0.501310] (-) TimerEvent: {}
+[0.602258] (-) TimerEvent: {}
+[0.702963] (-) TimerEvent: {}
+[0.803396] (-) TimerEvent: {}
+[0.903785] (-) TimerEvent: {}
+[1.004185] (-) TimerEvent: {}
+[1.104570] (-) TimerEvent: {}
+[1.204945] (-) TimerEvent: {}
+[1.305322] (-) TimerEvent: {}
+[1.405708] (-) TimerEvent: {}
+[1.506086] (-) TimerEvent: {}
+[1.606467] (-) TimerEvent: {}
+[1.706855] (-) TimerEvent: {}
+[1.807229] (-) TimerEvent: {}
+[1.907612] (-) TimerEvent: {}
+[2.008002] (-) TimerEvent: {}
+[2.108378] (-) TimerEvent: {}
+[2.208759] (-) TimerEvent: {}
+[2.309214] (-) TimerEvent: {}
+[2.409590] (-) TimerEvent: {}
+[2.509975] (-) TimerEvent: {}
+[2.610349] (-) TimerEvent: {}
+[2.710725] (-) TimerEvent: {}
+[2.811112] (-) TimerEvent: {}
+[2.911501] (-) TimerEvent: {}
+[3.011969] (-) TimerEvent: {}
+[3.112351] (-) TimerEvent: {}
+[3.212731] (-) TimerEvent: {}
+[3.313107] (-) TimerEvent: {}
+[3.413486] (-) TimerEvent: {}
+[3.513888] (-) TimerEvent: {}
+[3.614355] (-) TimerEvent: {}
+[3.714730] (-) TimerEvent: {}
+[3.815103] (-) TimerEvent: {}
+[3.915468] (-) TimerEvent: {}
+[4.015844] (-) TimerEvent: {}
+[4.116263] (-) TimerEvent: {}
+[4.216748] (-) TimerEvent: {}
+[4.317119] (-) TimerEvent: {}
+[4.417509] (-) TimerEvent: {}
+[4.517876] (-) TimerEvent: {}
+[4.618286] (-) TimerEvent: {}
+[4.718774] (-) TimerEvent: {}
+[4.819224] (-) TimerEvent: {}
+[4.919600] (-) TimerEvent: {}
+[5.019972] (-) TimerEvent: {}
+[5.120339] (-) TimerEvent: {}
+[5.220706] (-) TimerEvent: {}
+[5.321088] (-) TimerEvent: {}
+[5.421476] (-) TimerEvent: {}
+[5.521842] (-) TimerEvent: {}
+[5.622206] (-) TimerEvent: {}
+[5.722581] (-) TimerEvent: {}
+[5.822956] (-) TimerEvent: {}
+[5.923397] (-) TimerEvent: {}
+[6.023963] (-) TimerEvent: {}
+[6.124353] (-) TimerEvent: {}
+[6.224729] (-) TimerEvent: {}
+[6.325106] (-) TimerEvent: {}
+[6.425496] (-) TimerEvent: {}
+[6.525884] (-) TimerEvent: {}
+[6.626274] (-) TimerEvent: {}
+[6.726725] (-) TimerEvent: {}
+[6.827325] (-) TimerEvent: {}
+[6.927747] (-) TimerEvent: {}
+[7.028245] (-) TimerEvent: {}
+[7.128758] (-) TimerEvent: {}
+[7.229234] (-) TimerEvent: {}
+[7.329717] (-) TimerEvent: {}
+[7.430202] (-) TimerEvent: {}
+[7.530697] (-) TimerEvent: {}
+[7.631177] (-) TimerEvent: {}
+[7.731625] (-) TimerEvent: {}
+[7.831988] (-) TimerEvent: {}
+[7.932360] (-) TimerEvent: {}
+[8.032730] (-) TimerEvent: {}
+[8.133105] (-) TimerEvent: {}
+[8.233480] (-) TimerEvent: {}
+[8.333880] (-) TimerEvent: {}
+[8.434264] (-) TimerEvent: {}
+[8.534648] (-) TimerEvent: {}
+[8.635028] (-) TimerEvent: {}
+[8.735490] (-) TimerEvent: {}
+[8.836175] (-) TimerEvent: {}
+[8.937070] (-) TimerEvent: {}
+[9.038253] (-) TimerEvent: {}
+[9.138990] (-) TimerEvent: {}
+[9.239730] (-) TimerEvent: {}
+[9.340470] (-) TimerEvent: {}
+[9.441353] (-) TimerEvent: {}
+[9.542395] (-) TimerEvent: {}
+[9.644899] (-) TimerEvent: {}
+[9.745720] (-) TimerEvent: {}
+[9.846708] (-) TimerEvent: {}
+[9.948017] (-) TimerEvent: {}
+[10.048778] (-) TimerEvent: {}
+[10.149528] (-) TimerEvent: {}
+[10.250341] (-) TimerEvent: {}
+[10.351419] (-) TimerEvent: {}
+[10.452270] (-) TimerEvent: {}
+[10.553053] (-) TimerEvent: {}
+[10.653897] (-) TimerEvent: {}
+[10.720583] (my_nav2_behavior_tree) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX shared library libnav2_obstacle_warning_action_bt_node.so\x1b[0m\n'}
+[10.753983] (-) TimerEvent: {}
+[10.854356] (-) TimerEvent: {}
+[10.954733] (-) TimerEvent: {}
+[11.055165] (-) TimerEvent: {}
+[11.155552] (-) TimerEvent: {}
+[11.255940] (-) TimerEvent: {}
+[11.269856] (my_nav2_behavior_tree) StdoutLine: {'line': b'[100%] Built target nav2_obstacle_warning_action_bt_node\n'}
+[11.306804] (my_nav2_behavior_tree) CommandEnded: {'returncode': 0}
+[11.356051] (-) TimerEvent: {}
+[11.383482] (my_nav2_behavior_tree) JobProgress: {'identifier': 'my_nav2_behavior_tree', 'progress': 'install'}
+[11.416796] (my_nav2_behavior_tree) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/smr/ros2_self_driving_robot/build/my_nav2_behavior_tree'], 'cwd': '/home/smr/ros2_self_driving_robot/build/my_nav2_behavior_tree', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LINOROBOT2_BASE', '2wd'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'smr'), ('LC_TIME', 'th_TH.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/lib:/home/smr/ros2_self_driving_robot/install/nav2_behavior_tree/lib:/home/smr/ros2_self_driving_robot/install/micro_ros_agent/lib:/home/smr/ros2_self_driving_robot/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/smr'), ('MUTTER_DEBUG_ENABLE_ATOMIC_KMS', '0'), ('OLDPWD', '/home/smr'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'th_TH.UTF-8'), ('MANAGERPID', '1149'), ('SYSTEMD_EXEC_PID', '1564'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2301'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/smr/ros2_self_driving_robot/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'smr'), ('JOURNAL_STREAM', '8:38174'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'smr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/smr/.platformio/penv/bin:/path/to/gcc-arm-none-eabi-9-2020-q2-update/bin:/path/to/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/smr/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/smr/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/smr/.platformio/penv/bin:/path/to/gcc-arm-none-eabi-9-2020-q2-update/bin:/path/to/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/smr/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/smr/gcc-arm-none-eabi-9-2020-q2-update/bin'), ('SESSION_MANAGER', 'local/orange-pi:@/tmp/.ICE-unix/1541,unix/orange-pi:/tmp/.ICE-unix/1541'), ('INVOCATION_ID', '59f61040f64049ab83f4b43e37b75f97'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '19'), ('AMENT_PREFIX_PATH', '/home/smr/ros2_self_driving_robot/install/sllidar_ros2:/home/smr/ros2_self_driving_robot/install/robot_navigation:/home/smr/ros2_self_driving_robot/install/robot_description:/home/smr/ros2_self_driving_robot/install/robot_bringup:/home/smr/ros2_self_driving_robot/install/python_pkg:/home/smr/ros2_self_driving_robot/install/nav2_behavior_tree:/home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin:/home/smr/ros2_self_driving_robot/install/micro_ros_setup:/home/smr/ros2_self_driving_robot/install/micro_ros_agent:/home/smr/ros2_self_driving_robot/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:38878a94-8e7e-43cc-a9f9-c87f3bb7d5eb'), ('CLUTTER_PAINT', 'disable-dynamic-max-render-time'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('MUTTER_DEBUG_FORCE_KMS_MODE', 'simple'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/smr/ros2_self_driving_robot/build/my_nav2_behavior_tree'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LINOROBOT2_DEPTH_SENSOR', 'realsense'), ('PYTHONPATH', '/home/smr/ros2_self_driving_robot/install/python_pkg/lib/python3.10/site-packages:/home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/local/lib/python3.10/dist-packages:/home/smr/ros2_self_driving_robot/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('LINOROBOT2_LASER_SENSOR', 'c1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin:/home/smr/ros2_self_driving_robot/install/sllidar_ros2:/home/smr/ros2_self_driving_robot/install/robot_navigation:/home/smr/ros2_self_driving_robot/install/robot_description:/home/smr/ros2_self_driving_robot/install/robot_bringup:/home/smr/ros2_self_driving_robot/install/nav2_behavior_tree:/home/smr/ros2_self_driving_robot/install/micro_ros_setup:/home/smr/ros2_self_driving_robot/install/micro_ros_agent:/home/smr/ros2_self_driving_robot/install/micro_ros_msgs:/opt/ros/humble:/home/smr/ros2_self_driving_robot/install/python_pkg')]), 'shell': False}
+[11.442108] (my_nav2_behavior_tree) StdoutLine: {'line': b'-- Install configuration: "Release"\n'}
+[11.443083] (my_nav2_behavior_tree) StdoutLine: {'line': b'-- Installing: /home/smr/ros2_self_driving_robot/install/my_nav2_behavior_tree/lib/libnav2_obstacle_warning_action_bt_node.so\n'}
+[11.447467] (my_nav2_behavior_tree) StdoutLine: {'line': b'-- Set runtime path of "/home/smr/ros2_self_driving_robot/install/my_nav2_behavior_tree/lib/libnav2_obstacle_warning_action_bt_node.so" to ""\n'}
+[11.448133] (my_nav2_behavior_tree) StdoutLine: {'line': b'-- Installing: /home/smr/ros2_self_driving_robot/install/my_nav2_behavior_tree/include/\n'}
+[11.448689] (my_nav2_behavior_tree) StdoutLine: {'line': b'-- Installing: /home/smr/ros2_self_driving_robot/install/my_nav2_behavior_tree/include//my_nav2_behavior_tree\n'}
+[11.449148] (my_nav2_behavior_tree) StdoutLine: {'line': b'-- Installing: /home/smr/ros2_self_driving_robot/install/my_nav2_behavior_tree/include//my_nav2_behavior_tree/obstacle_warning_action.hpp\n'}
+[11.449529] (my_nav2_behavior_tree) StderrLine: {'line': b'\x1b[31mCMake Error at cmake_install.cmake:73 (file):\n'}
+[11.449953] (my_nav2_behavior_tree) StderrLine: {'line': b'  file INSTALL cannot find\n'}
+[11.450331] (my_nav2_behavior_tree) StderrLine: {'line': b'  "/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/behavior_trees":\n'}
+[11.450699] (my_nav2_behavior_tree) StderrLine: {'line': b'  No such file or directory.\n'}
+[11.451105] (my_nav2_behavior_tree) StderrLine: {'line': b'\n'}
+[11.451475] (my_nav2_behavior_tree) StderrLine: {'line': b'\x1b[0m\n'}
+[11.455206] (my_nav2_behavior_tree) CommandEnded: {'returncode': 1}
+[11.457313] (-) TimerEvent: {}
+[11.540633] (my_nav2_behavior_tree) JobEnded: {'identifier': 'my_nav2_behavior_tree', 'rc': 1}
+[11.551169] (-) EventReactorShutdown: {}

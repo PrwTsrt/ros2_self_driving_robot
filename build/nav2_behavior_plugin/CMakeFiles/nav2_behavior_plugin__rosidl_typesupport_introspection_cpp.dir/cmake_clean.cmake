@@ -1,0 +1,13 @@
+file(REMOVE_RECURSE
+  "CMakeFiles/nav2_behavior_plugin__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_behavior_plugin/action/detail/obstacle_warning__type_support.cpp.o"
+  "CMakeFiles/nav2_behavior_plugin__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/nav2_behavior_plugin/action/detail/obstacle_warning__type_support.cpp.o.d"
+  "libnav2_behavior_plugin__rosidl_typesupport_introspection_cpp.pdb"
+  "libnav2_behavior_plugin__rosidl_typesupport_introspection_cpp.so"
+  "rosidl_typesupport_introspection_cpp/nav2_behavior_plugin/action/detail/obstacle_warning__rosidl_typesupport_introspection_cpp.hpp"
+  "rosidl_typesupport_introspection_cpp/nav2_behavior_plugin/action/detail/obstacle_warning__type_support.cpp"
+)
+
+# Per-language clean rules from dependency scanning.
+foreach(lang CXX)
+  include(CMakeFiles/nav2_behavior_plugin__rosidl_typesupport_introspection_cpp.dir/cmake_clean_${lang}.cmake OPTIONAL)
+endforeach()

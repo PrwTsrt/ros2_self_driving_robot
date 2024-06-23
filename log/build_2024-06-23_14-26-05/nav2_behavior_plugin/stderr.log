@@ -1,0 +1,4 @@
+[01m[K/home/smr/ros2_self_driving_robot/src/nav2_behavior_plugin/src/obstacle_warning.cpp:[m[K In function ‘[01m[Kbool nav2_behavior_plugin::sendLineNotify(const string&, const string&)[m[K’:
+[01m[K/home/smr/ros2_self_driving_robot/src/nav2_behavior_plugin/src/obstacle_warning.cpp:56:1:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wreturn-type-Wreturn-type]8;;[m[K]
+   56 | [01;35m[K}[m[K
+      | [01;35m[K^[m[K

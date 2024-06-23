@@ -1,0 +1,99 @@
+[0.515s] Invoking command in '/home/smr/ros2_self_driving_robot/build/robot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/smr/ros2_self_driving_robot/install/python_pkg /usr/bin/cmake /home/smr/ros2_self_driving_robot/src/robot_navigation -DCMAKE_INSTALL_PREFIX=/home/smr/ros2_self_driving_robot/install/robot_navigation
+[0.893s] -- The C compiler identification is GNU 11.4.0
+[1.140s] -- The CXX compiler identification is GNU 11.4.0
+[1.170s] -- Detecting C compiler ABI info
+[1.397s] -- Detecting C compiler ABI info - done
+[1.416s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.416s] -- Detecting C compile features
+[1.417s] -- Detecting C compile features - done
+[1.422s] -- Detecting CXX compiler ABI info
+[1.722s] -- Detecting CXX compiler ABI info - done
+[1.800s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.806s] -- Detecting CXX compile features
+[1.809s] -- Detecting CXX compile features - done
+[1.821s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.296s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[2.506s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[2.575s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.583s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.595s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.618s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.648s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.758s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.762s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.021s] -- Found OpenSSL: /usr/lib/aarch64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.130s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.270s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.287s] -- Looking for pthread.h
+[3.528s] -- Looking for pthread.h - found
+[3.528s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.873s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.873s] -- Found Threads: TRUE  
+[4.122s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.307s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[4.307s] -- Configured cppcheck include dirs: 
+[4.308s] -- Configured cppcheck exclude dirs and/or files: 
+[4.310s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.316s] -- Added test 'lint_cmake' to check CMake code style
+[4.324s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.325s] -- Added test 'uncrustify' to check C / C++ code style
+[4.326s] -- Configured uncrustify additional arguments: 
+[4.326s] -- Added test 'xmllint' to check XML markup files
+[4.328s] -- Configuring done
+[4.335s] -- Generating done
+[4.338s] -- Build files have been written to: /home/smr/ros2_self_driving_robot/build/robot_navigation
+[4.358s] Invoked command in '/home/smr/ros2_self_driving_robot/build/robot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/smr/ros2_self_driving_robot/install/python_pkg /usr/bin/cmake /home/smr/ros2_self_driving_robot/src/robot_navigation -DCMAKE_INSTALL_PREFIX=/home/smr/ros2_self_driving_robot/install/robot_navigation
+[4.367s] Invoking command in '/home/smr/ros2_self_driving_robot/build/robot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/smr/ros2_self_driving_robot/install/python_pkg /usr/bin/cmake --build /home/smr/ros2_self_driving_robot/build/robot_navigation -- -j8 -l8
+[4.522s] Invoked command in '/home/smr/ros2_self_driving_robot/build/robot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/smr/ros2_self_driving_robot/install/python_pkg /usr/bin/cmake --build /home/smr/ros2_self_driving_robot/build/robot_navigation -- -j8 -l8
+[4.808s] Invoking command in '/home/smr/ros2_self_driving_robot/build/robot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/smr/ros2_self_driving_robot/install/python_pkg /usr/bin/cmake --install /home/smr/ros2_self_driving_robot/build/robot_navigation
+[4.864s] -- Install configuration: ""
+[4.864s] -- Installing: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/launch
+[4.865s] -- Installing: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/launch/navigation_launch.py
+[4.865s] -- Installing: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/launch/nav.launch.py
+[4.866s] -- Installing: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/launch/slam.launch.py
+[4.866s] -- Installing: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/launch/collision_monitor_node.launch.py
+[4.867s] -- Installing: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/config
+[4.867s] -- Installing: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/config/mapper_params_online_async.yaml
+[4.867s] -- Installing: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/config/collision_monitor_params.yaml
+[4.868s] -- Installing: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/config/.navigation.yaml.swp
+[4.868s] -- Installing: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/config/navigation.yaml
+[4.869s] -- Installing: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/rviz
+[4.869s] -- Installing: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/rviz/slam.rviz
+[4.869s] -- Installing: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/rviz/navigation.rviz
+[4.870s] -- Installing: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/maps
+[4.870s] -- Installing: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/maps/2_map_save.yaml
+[4.870s] -- Installing: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/maps/first_map_save.pgm
+[4.871s] -- Installing: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/maps/test_save.yaml
+[4.872s] -- Installing: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/maps/first_map_serial.data
+[4.900s] -- Installing: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/maps/4_map_serial.data
+[4.954s] -- Installing: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/maps/2_map_serial.data
+[4.978s] -- Installing: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/maps/3_map_serial.posegraph
+[5.146s] -- Installing: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/maps/lobby_serial.posegraph
+[5.337s] -- Installing: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/maps/4_map_save.yaml
+[5.337s] -- Installing: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/maps/4_map_save.pgm
+[5.338s] -- Installing: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/maps/2_map_serial.posegraph
+[5.639s] -- Installing: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/maps/2_map_save.pgm
+[5.640s] -- Installing: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/maps/lobby_serial.data
+[5.674s] -- Installing: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/maps/test_save.pgm
+[5.677s] -- Installing: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/maps/lobby_save.pgm
+[5.678s] -- Installing: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/maps/first_map_save.yaml
+[5.678s] -- Installing: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/maps/4_map_serial.posegraph
+[5.842s] -- Installing: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/maps/lobby_save.yaml
+[5.842s] -- Installing: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/maps/3_map_serial.data
+[5.873s] -- Installing: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/maps/first_map_serial.posegraph
+[6.016s] -- Installing: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/ament_index/resource_index/package_run_dependencies/robot_navigation
+[6.017s] -- Installing: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/ament_index/resource_index/parent_prefix_path/robot_navigation
+[6.018s] -- Installing: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/environment/ament_prefix_path.sh
+[6.019s] -- Installing: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/environment/ament_prefix_path.dsv
+[6.022s] -- Installing: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/environment/path.sh
+[6.023s] -- Installing: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/environment/path.dsv
+[6.025s] -- Installing: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/local_setup.bash
+[6.027s] -- Installing: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/local_setup.sh
+[6.030s] -- Installing: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/local_setup.zsh
+[6.034s] -- Installing: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/local_setup.dsv
+[6.035s] -- Installing: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/package.dsv
+[6.038s] -- Installing: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/ament_index/resource_index/packages/robot_navigation
+[6.040s] -- Installing: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/cmake/robot_navigationConfig.cmake
+[6.042s] -- Installing: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/cmake/robot_navigationConfig-version.cmake
+[6.043s] -- Installing: /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/package.xml
+[6.063s] Invoked command in '/home/smr/ros2_self_driving_robot/build/robot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/smr/ros2_self_driving_robot/install/python_pkg /usr/bin/cmake --install /home/smr/ros2_self_driving_robot/build/robot_navigation

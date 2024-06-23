@@ -16,7 +16,7 @@ def generate_launch_description():
     nav2_dir = get_package_share_directory("nav2_bringup")
 
     default_map_path = PathJoinSubstitution(
-        [FindPackageShare('robot_navigation'), 'maps', '4_map_save.yaml']
+        [FindPackageShare('robot_navigation'), 'maps', 'test_save.yaml']
     )
 
     map_arg = DeclareLaunchArgument(
@@ -30,7 +30,6 @@ def generate_launch_description():
             default_value='false',
             description='Enable use_sime_time to true'
         )
-
     rviz_node = Node(
         package="rviz2",
         executable="rviz2",
@@ -66,6 +65,8 @@ def generate_launch_description():
             )),
             launch_arguments={
                 'map' : LaunchConfiguration("map"),
+                'params_file':  PathJoinSubstitution(
+                    [robot_navigation_dir, "config", "navigation.yaml"]),
                 'use_sim_time': LaunchConfiguration("sim"),
             }.items()
         )
@@ -85,9 +86,9 @@ def generate_launch_description():
     return LaunchDescription([
         map_arg,
         sim_arg,
+        # rviz_node,
         bringup,
         amcl,
         nav,
         # collision_monitor,
-        rviz_node,
     ])

@@ -1,1 +1,0 @@
-/home/smr/ros2_self_driving_robot/src/robot_description/launch/display.launch.py

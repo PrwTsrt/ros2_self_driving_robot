@@ -1,0 +1,154 @@
+[0.066s] Invoking command in '/home/smr/ros2_self_driving_robot/build/nav2_behavior_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/smr/ros2_self_driving_robot/install/python_pkg /usr/bin/cmake --build /home/smr/ros2_self_driving_robot/build/nav2_behavior_plugin -- -j8 -l8
+[0.629s] [  3%] Built target nav2_behavior_plugin__cpp
+[0.630s] [ 12%] Built target nav2_behavior_plugin__rosidl_generator_c
+[0.630s] [ 12%] Built target ament_cmake_python_copy_nav2_behavior_plugin
+[0.630s] [ 21%] Built target nav2_behavior_plugin__rosidl_typesupport_fastrtps_cpp
+[0.630s] [ 30%] Built target nav2_behavior_plugin__rosidl_typesupport_cpp
+[0.630s] [ 39%] Built target nav2_behavior_plugin__rosidl_typesupport_introspection_cpp
+[0.630s] [ 48%] Built target nav2_behavior_plugin__rosidl_typesupport_c
+[0.630s] [ 57%] Built target nav2_behavior_plugin__rosidl_typesupport_introspection_c
+[0.630s] [ 66%] Built target nav2_behavior_plugin__rosidl_typesupport_fastrtps_c
+[0.630s] [ 66%] Built target nav2_behavior_plugin
+[0.630s] [ 72%] Built target nav2_behavior_plugin_
+[0.630s] [ 75%] Built target nav2_behavior_plugin__py
+[0.731s] [ 81%] Built target nav2_behavior_plugin__rosidl_generator_py
+[0.821s] [ 87%] Built target nav2_behavior_plugin__rosidl_typesupport_fastrtps_c__pyext
+[0.831s] [ 93%] Built target nav2_behavior_plugin__rosidl_typesupport_c__pyext
+[0.840s] [100%] Built target nav2_behavior_plugin__rosidl_typesupport_introspection_c__pyext
+[0.871s] running egg_info
+[0.871s] writing nav2_behavior_plugin.egg-info/PKG-INFO
+[0.872s] writing dependency_links to nav2_behavior_plugin.egg-info/dependency_links.txt
+[0.873s] writing top-level names to nav2_behavior_plugin.egg-info/top_level.txt
+[0.876s] reading manifest file 'nav2_behavior_plugin.egg-info/SOURCES.txt'
+[0.880s] writing manifest file 'nav2_behavior_plugin.egg-info/SOURCES.txt'
+[0.964s] [100%] Built target ament_cmake_python_build_nav2_behavior_plugin_egg
+[1.005s] Invoked command in '/home/smr/ros2_self_driving_robot/build/nav2_behavior_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/smr/ros2_self_driving_robot/install/python_pkg /usr/bin/cmake --build /home/smr/ros2_self_driving_robot/build/nav2_behavior_plugin -- -j8 -l8
+[1.170s] Invoking command in '/home/smr/ros2_self_driving_robot/build/nav2_behavior_plugin': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/smr/ros2_self_driving_robot/install/python_pkg /usr/bin/cmake --install /home/smr/ros2_self_driving_robot/build/nav2_behavior_plugin
+[1.205s] -- Install configuration: ""
+[1.205s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/share/ament_index/resource_index/rosidl_interfaces/nav2_behavior_plugin
+[1.206s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/include/nav2_behavior_plugin/nav2_behavior_plugin
+[1.207s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/include/nav2_behavior_plugin/nav2_behavior_plugin/msg
+[1.208s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/include/nav2_behavior_plugin/nav2_behavior_plugin/msg/rosidl_generator_c__visibility_control.h
+[1.209s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/include/nav2_behavior_plugin/nav2_behavior_plugin/action
+[1.217s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/include/nav2_behavior_plugin/nav2_behavior_plugin/action/obstacle_warning.h
+[1.218s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/include/nav2_behavior_plugin/nav2_behavior_plugin/action/detail
+[1.218s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/include/nav2_behavior_plugin/nav2_behavior_plugin/action/detail/obstacle_warning__struct.h
+[1.219s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/include/nav2_behavior_plugin/nav2_behavior_plugin/action/detail/obstacle_warning__functions.c
+[1.219s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/include/nav2_behavior_plugin/nav2_behavior_plugin/action/detail/obstacle_warning__functions.h
+[1.219s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/include/nav2_behavior_plugin/nav2_behavior_plugin/action/detail/obstacle_warning__type_support.h
+[1.219s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/share/nav2_behavior_plugin/environment/library_path.sh
+[1.220s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/share/nav2_behavior_plugin/environment/library_path.dsv
+[1.220s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/lib/libnav2_behavior_plugin__rosidl_generator_c.so
+[1.221s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/include/nav2_behavior_plugin/nav2_behavior_plugin
+[1.221s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/include/nav2_behavior_plugin/nav2_behavior_plugin/msg
+[1.222s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/include/nav2_behavior_plugin/nav2_behavior_plugin/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[1.222s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/include/nav2_behavior_plugin/nav2_behavior_plugin/action
+[1.222s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/include/nav2_behavior_plugin/nav2_behavior_plugin/action/detail
+[1.222s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/include/nav2_behavior_plugin/nav2_behavior_plugin/action/detail/obstacle_warning__rosidl_typesupport_fastrtps_c.h
+[1.223s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/lib/libnav2_behavior_plugin__rosidl_typesupport_fastrtps_c.so
+[1.223s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/include/nav2_behavior_plugin/nav2_behavior_plugin
+[1.224s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/include/nav2_behavior_plugin/nav2_behavior_plugin/action
+[1.224s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/include/nav2_behavior_plugin/nav2_behavior_plugin/action/obstacle_warning.hpp
+[1.225s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/include/nav2_behavior_plugin/nav2_behavior_plugin/action/detail
+[1.225s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/include/nav2_behavior_plugin/nav2_behavior_plugin/action/detail/obstacle_warning__builder.hpp
+[1.226s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/include/nav2_behavior_plugin/nav2_behavior_plugin/action/detail/obstacle_warning__traits.hpp
+[1.226s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/include/nav2_behavior_plugin/nav2_behavior_plugin/action/detail/obstacle_warning__struct.hpp
+[1.226s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/include/nav2_behavior_plugin/nav2_behavior_plugin
+[1.227s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/include/nav2_behavior_plugin/nav2_behavior_plugin/msg
+[1.227s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/include/nav2_behavior_plugin/nav2_behavior_plugin/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[1.227s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/include/nav2_behavior_plugin/nav2_behavior_plugin/action
+[1.228s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/include/nav2_behavior_plugin/nav2_behavior_plugin/action/detail
+[1.228s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/include/nav2_behavior_plugin/nav2_behavior_plugin/action/detail/obstacle_warning__rosidl_typesupport_fastrtps_cpp.hpp
+[1.228s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/include/nav2_behavior_plugin/nav2_behavior_plugin/action/detail/dds_fastrtps
+[1.228s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/lib/libnav2_behavior_plugin__rosidl_typesupport_fastrtps_cpp.so
+[1.229s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/include/nav2_behavior_plugin/nav2_behavior_plugin
+[1.229s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/include/nav2_behavior_plugin/nav2_behavior_plugin/msg
+[1.229s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/include/nav2_behavior_plugin/nav2_behavior_plugin/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[1.230s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/include/nav2_behavior_plugin/nav2_behavior_plugin/action
+[1.230s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/include/nav2_behavior_plugin/nav2_behavior_plugin/action/detail
+[1.230s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/include/nav2_behavior_plugin/nav2_behavior_plugin/action/detail/obstacle_warning__type_support.c
+[1.230s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/include/nav2_behavior_plugin/nav2_behavior_plugin/action/detail/obstacle_warning__rosidl_typesupport_introspection_c.h
+[1.230s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/lib/libnav2_behavior_plugin__rosidl_typesupport_introspection_c.so
+[1.231s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/lib/libnav2_behavior_plugin__rosidl_typesupport_c.so
+[1.231s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/include/nav2_behavior_plugin/nav2_behavior_plugin
+[1.231s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/include/nav2_behavior_plugin/nav2_behavior_plugin/action
+[1.232s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/include/nav2_behavior_plugin/nav2_behavior_plugin/action/detail
+[1.232s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/include/nav2_behavior_plugin/nav2_behavior_plugin/action/detail/obstacle_warning__rosidl_typesupport_introspection_cpp.hpp
+[1.233s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/include/nav2_behavior_plugin/nav2_behavior_plugin/action/detail/obstacle_warning__type_support.cpp
+[1.233s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/lib/libnav2_behavior_plugin__rosidl_typesupport_introspection_cpp.so
+[1.233s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/lib/libnav2_behavior_plugin__rosidl_typesupport_cpp.so
+[1.233s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/share/nav2_behavior_plugin/environment/pythonpath.sh
+[1.236s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/share/nav2_behavior_plugin/environment/pythonpath.dsv
+[1.238s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/local/lib/python3.10/dist-packages/nav2_behavior_plugin-0.0.0-py3.10.egg-info
+[1.239s] -- Installing: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/local/lib/python3.10/dist-packages/nav2_behavior_plugin-0.0.0-py3.10.egg-info/SOURCES.txt
+[1.239s] -- Installing: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/local/lib/python3.10/dist-packages/nav2_behavior_plugin-0.0.0-py3.10.egg-info/PKG-INFO
+[1.239s] -- Installing: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/local/lib/python3.10/dist-packages/nav2_behavior_plugin-0.0.0-py3.10.egg-info/top_level.txt
+[1.239s] -- Installing: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/local/lib/python3.10/dist-packages/nav2_behavior_plugin-0.0.0-py3.10.egg-info/dependency_links.txt
+[1.239s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/local/lib/python3.10/dist-packages/nav2_behavior_plugin
+[1.239s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/local/lib/python3.10/dist-packages/nav2_behavior_plugin/nav2_behavior_plugin_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[1.242s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/local/lib/python3.10/dist-packages/nav2_behavior_plugin/nav2_behavior_plugin_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[1.242s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/local/lib/python3.10/dist-packages/nav2_behavior_plugin/_nav2_behavior_plugin_s.ep.rosidl_typesupport_introspection_c.c
+[1.242s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/local/lib/python3.10/dist-packages/nav2_behavior_plugin/nav2_behavior_plugin_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[1.242s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/local/lib/python3.10/dist-packages/nav2_behavior_plugin/_nav2_behavior_plugin_s.ep.rosidl_typesupport_fastrtps_c.c
+[1.242s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/local/lib/python3.10/dist-packages/nav2_behavior_plugin/action
+[1.243s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/local/lib/python3.10/dist-packages/nav2_behavior_plugin/action/_obstacle_warning.py
+[1.244s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/local/lib/python3.10/dist-packages/nav2_behavior_plugin/action/_obstacle_warning_s.c
+[1.244s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/local/lib/python3.10/dist-packages/nav2_behavior_plugin/action/__init__.py
+[1.244s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/local/lib/python3.10/dist-packages/nav2_behavior_plugin/libnav2_behavior_plugin__rosidl_generator_py.so
+[1.244s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/local/lib/python3.10/dist-packages/nav2_behavior_plugin/_nav2_behavior_plugin_s.ep.rosidl_typesupport_c.c
+[1.244s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/local/lib/python3.10/dist-packages/nav2_behavior_plugin/__init__.py
+[1.315s] Listing '/home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/local/lib/python3.10/dist-packages/nav2_behavior_plugin'...
+[1.316s] Listing '/home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/local/lib/python3.10/dist-packages/nav2_behavior_plugin/action'...
+[1.331s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/local/lib/python3.10/dist-packages/nav2_behavior_plugin/nav2_behavior_plugin_s__rosidl_typesupport_fastrtps_c.cpython-310-aarch64-linux-gnu.so
+[1.354s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/local/lib/python3.10/dist-packages/nav2_behavior_plugin/nav2_behavior_plugin_s__rosidl_typesupport_introspection_c.cpython-310-aarch64-linux-gnu.so
+[1.357s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/local/lib/python3.10/dist-packages/nav2_behavior_plugin/nav2_behavior_plugin_s__rosidl_typesupport_c.cpython-310-aarch64-linux-gnu.so
+[1.358s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/lib/libnav2_behavior_plugin__rosidl_generator_py.so
+[1.358s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/share/nav2_behavior_plugin/action/ObstacleWarning.idl
+[1.359s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/share/nav2_behavior_plugin/action/ObstacleWarning.action
+[1.360s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/share/nav2_behavior_plugin/behavior_plugin.xml
+[1.368s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/lib/libnav2_behavior_plugin_.so
+[1.368s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/include/
+[1.369s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/include//nav2_behavior_plugin
+[1.369s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/include//nav2_behavior_plugin/obstacle_warning.hpp
+[1.369s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/share/nav2_behavior_plugin/behavior_plugin.xml
+[1.369s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/share/ament_index/resource_index/package_run_dependencies/nav2_behavior_plugin
+[1.369s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/share/ament_index/resource_index/parent_prefix_path/nav2_behavior_plugin
+[1.370s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/share/nav2_behavior_plugin/environment/ament_prefix_path.sh
+[1.370s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/share/nav2_behavior_plugin/environment/ament_prefix_path.dsv
+[1.370s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/share/nav2_behavior_plugin/environment/path.sh
+[1.370s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/share/nav2_behavior_plugin/environment/path.dsv
+[1.370s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/share/nav2_behavior_plugin/local_setup.bash
+[1.370s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/share/nav2_behavior_plugin/local_setup.sh
+[1.370s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/share/nav2_behavior_plugin/local_setup.zsh
+[1.371s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/share/nav2_behavior_plugin/local_setup.dsv
+[1.371s] -- Installing: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/share/nav2_behavior_plugin/package.dsv
+[1.371s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/share/ament_index/resource_index/packages/nav2_behavior_plugin
+[1.371s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/share/ament_index/resource_index/nav2_core__pluginlib__plugin/nav2_behavior_plugin
+[1.371s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/share/nav2_behavior_plugin/cmake/export_nav2_behavior_plugin__rosidl_generator_cExport.cmake
+[1.371s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/share/nav2_behavior_plugin/cmake/export_nav2_behavior_plugin__rosidl_generator_cExport-noconfig.cmake
+[1.371s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/share/nav2_behavior_plugin/cmake/export_nav2_behavior_plugin__rosidl_typesupport_fastrtps_cExport.cmake
+[1.371s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/share/nav2_behavior_plugin/cmake/export_nav2_behavior_plugin__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[1.372s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/share/nav2_behavior_plugin/cmake/export_nav2_behavior_plugin__rosidl_generator_cppExport.cmake
+[1.372s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/share/nav2_behavior_plugin/cmake/export_nav2_behavior_plugin__rosidl_typesupport_fastrtps_cppExport.cmake
+[1.372s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/share/nav2_behavior_plugin/cmake/export_nav2_behavior_plugin__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[1.372s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/share/nav2_behavior_plugin/cmake/nav2_behavior_plugin__rosidl_typesupport_introspection_cExport.cmake
+[1.372s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/share/nav2_behavior_plugin/cmake/nav2_behavior_plugin__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[1.404s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/share/nav2_behavior_plugin/cmake/nav2_behavior_plugin__rosidl_typesupport_cExport.cmake
+[1.404s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/share/nav2_behavior_plugin/cmake/nav2_behavior_plugin__rosidl_typesupport_cExport-noconfig.cmake
+[1.404s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/share/nav2_behavior_plugin/cmake/nav2_behavior_plugin__rosidl_typesupport_introspection_cppExport.cmake
+[1.404s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/share/nav2_behavior_plugin/cmake/nav2_behavior_plugin__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[1.404s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/share/nav2_behavior_plugin/cmake/nav2_behavior_plugin__rosidl_typesupport_cppExport.cmake
+[1.405s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/share/nav2_behavior_plugin/cmake/nav2_behavior_plugin__rosidl_typesupport_cppExport-noconfig.cmake
+[1.405s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/share/nav2_behavior_plugin/cmake/export_nav2_behavior_plugin__rosidl_generator_pyExport.cmake
+[1.405s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/share/nav2_behavior_plugin/cmake/export_nav2_behavior_plugin__rosidl_generator_pyExport-noconfig.cmake
+[1.405s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/share/nav2_behavior_plugin/cmake/rosidl_cmake-extras.cmake
+[1.405s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/share/nav2_behavior_plugin/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.405s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/share/nav2_behavior_plugin/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.405s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/share/nav2_behavior_plugin/cmake/ament_cmake_export_libraries-extras.cmake
+[1.405s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/share/nav2_behavior_plugin/cmake/ament_cmake_export_targets-extras.cmake
+[1.405s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/share/nav2_behavior_plugin/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[1.405s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/share/nav2_behavior_plugin/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[1.405s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/share/nav2_behavior_plugin/cmake/nav2_behavior_pluginConfig.cmake
+[1.405s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/share/nav2_behavior_plugin/cmake/nav2_behavior_pluginConfig-version.cmake
+[1.406s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/share/nav2_behavior_plugin/package.xml
+[1.406s] Invoked command in '/home/smr/ros2_self_driving_robot/build/nav2_behavior_plugin' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/smr/ros2_self_driving_robot/install/python_pkg /usr/bin/cmake --install /home/smr/ros2_self_driving_robot/build/nav2_behavior_plugin

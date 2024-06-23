@@ -1,0 +1,260 @@
+[0.251s] DEBUG:colcon:Command line arguments: ['/usr/local/bin/colcon', 'list', '-p', '--base-paths', '/home/smr/ros2_self_driving_robot/src']
+[0.251s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='list', build_base='build', ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['/home/smr/ros2_self_driving_robot/src'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], topological_order=False, names_only=False, paths_only=True, topological_graph=False, topological_graph_dot=False, topological_graph_density=False, topological_graph_legend=False, topological_graph_dot_cluster=False, topological_graph_dot_include_skipped=False, verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0xffffb7d7c0a0>, verb_extension=<colcon_package_information.verb.list.ListVerb object at 0xffffb7f8ae90>, main=<bound method ListVerb.main of <colcon_package_information.verb.list.ListVerb object at 0xffffb7f8ae90>>)
+[0.539s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.539s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.539s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.539s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.539s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.539s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/smr/ros2_self_driving_robot/src'
+[0.539s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src) by extensions ['ignore', 'ignore_ament_install']
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src) by extension 'ignore'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src) by extension 'ignore_ament_install'
+[0.540s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src) by extensions ['colcon_pkg']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src) by extension 'colcon_pkg'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src) by extensions ['colcon_meta']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src) by extension 'colcon_meta'
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src) by extensions ['ros']
+[0.541s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src) by extension 'ros'
+[0.565s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src) by extensions ['cmake', 'python']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src) by extension 'cmake'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src) by extension 'python'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src) by extensions ['python_setup_py']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src) by extension 'python_setup_py'
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/log) by extensions ['ignore', 'ignore_ament_install']
+[0.566s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/log) by extension 'ignore'
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/log) ignored
+[0.567s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040) by extensions ['ignore', 'ignore_ament_install']
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040) by extension 'ignore'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040) by extension 'ignore_ament_install'
+[0.568s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040) by extensions ['colcon_pkg']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040) by extension 'colcon_pkg'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040) by extensions ['colcon_meta']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040) by extension 'colcon_meta'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040) by extensions ['ros']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040) by extension 'ros'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040) by extensions ['cmake', 'python']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040) by extension 'cmake'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040) by extension 'python'
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040) by extensions ['python_setup_py']
+[0.569s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040) by extension 'python_setup_py'
+[0.570s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/include) by extensions ['ignore', 'ignore_ament_install']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/include) by extension 'ignore'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/include) by extension 'ignore_ament_install'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/include) by extensions ['colcon_pkg']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/include) by extension 'colcon_pkg'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/include) by extensions ['colcon_meta']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/include) by extension 'colcon_meta'
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/include) by extensions ['ros']
+[0.571s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/include) by extension 'ros'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/include) by extensions ['cmake', 'python']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/include) by extension 'cmake'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/include) by extension 'python'
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/include) by extensions ['python_setup_py']
+[0.572s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/include) by extension 'python_setup_py'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/lib) by extensions ['ignore', 'ignore_ament_install']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/lib) by extension 'ignore'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/lib) by extension 'ignore_ament_install'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/lib) by extensions ['colcon_pkg']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/lib) by extension 'colcon_pkg'
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/lib) by extensions ['colcon_meta']
+[0.573s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/lib) by extension 'colcon_meta'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/lib) by extensions ['ros']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/lib) by extension 'ros'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/lib) by extensions ['cmake', 'python']
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/lib) by extension 'cmake'
+[0.574s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/lib) by extension 'python'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/lib) by extensions ['python_setup_py']
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/lib) by extension 'python_setup_py'
+[0.575s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/src) by extensions ['ignore', 'ignore_ament_install']
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/src) by extension 'ignore'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/src) by extension 'ignore_ament_install'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/src) by extensions ['colcon_pkg']
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/src) by extension 'colcon_pkg'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/src) by extensions ['colcon_meta']
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/src) by extension 'colcon_meta'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/src) by extensions ['ros']
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/src) by extension 'ros'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/src) by extensions ['cmake', 'python']
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/src) by extension 'cmake'
+[0.576s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/src) by extension 'python'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/src) by extensions ['python_setup_py']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/src) by extension 'python_setup_py'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/test) by extensions ['ignore', 'ignore_ament_install']
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/test) by extension 'ignore'
+[0.577s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/test) by extension 'ignore_ament_install'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/test) by extensions ['colcon_pkg']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/test) by extension 'colcon_pkg'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/test) by extensions ['colcon_meta']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/test) by extension 'colcon_meta'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/test) by extensions ['ros']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/test) by extension 'ros'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/test) by extensions ['cmake', 'python']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/test) by extension 'cmake'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/test) by extension 'python'
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/test) by extensions ['python_setup_py']
+[0.578s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/micro_ros_rpi2040/test) by extension 'python_setup_py'
+[0.581s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/python_pkg) by extensions ['ignore', 'ignore_ament_install']
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/python_pkg) by extension 'ignore'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/python_pkg) by extension 'ignore_ament_install'
+[0.584s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/python_pkg) by extensions ['colcon_pkg']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/python_pkg) by extension 'colcon_pkg'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/python_pkg) by extensions ['colcon_meta']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/python_pkg) by extension 'colcon_meta'
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/python_pkg) by extensions ['ros']
+[0.585s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/python_pkg) by extension 'ros'
+[0.597s] DEBUG:colcon.colcon_core.package_identification:Package '/home/smr/ros2_self_driving_robot/src/python_pkg' with type 'ros.ament_python' and name 'python_pkg'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/robot_bringup) by extensions ['ignore', 'ignore_ament_install']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/robot_bringup) by extension 'ignore'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/robot_bringup) by extension 'ignore_ament_install'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/robot_bringup) by extensions ['colcon_pkg']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/robot_bringup) by extension 'colcon_pkg'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/robot_bringup) by extensions ['colcon_meta']
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/robot_bringup) by extension 'colcon_meta'
+[0.599s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/robot_bringup) by extensions ['ros']
+[0.600s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/robot_bringup) by extension 'ros'
+[0.602s] DEBUG:colcon.colcon_core.package_identification:Package '/home/smr/ros2_self_driving_robot/src/robot_bringup' with type 'ros.ament_cmake' and name 'robot_bringup'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/robot_description) by extensions ['ignore', 'ignore_ament_install']
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/robot_description) by extension 'ignore'
+[0.602s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/robot_description) by extension 'ignore_ament_install'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/robot_description) by extensions ['colcon_pkg']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/robot_description) by extension 'colcon_pkg'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/robot_description) by extensions ['colcon_meta']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/robot_description) by extension 'colcon_meta'
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/robot_description) by extensions ['ros']
+[0.603s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/robot_description) by extension 'ros'
+[0.604s] DEBUG:colcon.colcon_core.package_identification:Package '/home/smr/ros2_self_driving_robot/src/robot_description' with type 'ros.ament_cmake' and name 'robot_description'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/robot_navigation) by extensions ['ignore', 'ignore_ament_install']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/robot_navigation) by extension 'ignore'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/robot_navigation) by extension 'ignore_ament_install'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/robot_navigation) by extensions ['colcon_pkg']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/robot_navigation) by extension 'colcon_pkg'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/robot_navigation) by extensions ['colcon_meta']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/robot_navigation) by extension 'colcon_meta'
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/robot_navigation) by extensions ['ros']
+[0.605s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/robot_navigation) by extension 'ros'
+[0.607s] DEBUG:colcon.colcon_core.package_identification:Package '/home/smr/ros2_self_driving_robot/src/robot_navigation' with type 'ros.ament_cmake' and name 'robot_navigation'
+[0.608s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/sllidar_ros2) by extensions ['ignore', 'ignore_ament_install']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/sllidar_ros2) by extension 'ignore'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/sllidar_ros2) by extension 'ignore_ament_install'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/sllidar_ros2) by extensions ['colcon_pkg']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/sllidar_ros2) by extension 'colcon_pkg'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/sllidar_ros2) by extensions ['colcon_meta']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/sllidar_ros2) by extension 'colcon_meta'
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/sllidar_ros2) by extensions ['ros']
+[0.609s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/sllidar_ros2) by extension 'ros'
+[0.611s] DEBUG:colcon.colcon_core.package_identification:Package '/home/smr/ros2_self_driving_robot/src/sllidar_ros2' with type 'ros.ament_cmake' and name 'sllidar_ros2'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src) by extensions ['ignore', 'ignore_ament_install']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src) by extension 'ignore'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src) by extension 'ignore_ament_install'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src) by extensions ['colcon_pkg']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src) by extension 'colcon_pkg'
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src) by extensions ['colcon_meta']
+[0.611s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src) by extension 'colcon_meta'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src) by extensions ['ros']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src) by extension 'ros'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src) by extensions ['cmake', 'python']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src) by extension 'cmake'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src) by extension 'python'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src) by extensions ['python_setup_py']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src) by extension 'python_setup_py'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/micro_ros_setup) by extensions ['ignore', 'ignore_ament_install']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/micro_ros_setup) by extension 'ignore'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/micro_ros_setup) by extension 'ignore_ament_install'
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/micro_ros_setup) by extensions ['colcon_pkg']
+[0.612s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/micro_ros_setup) by extension 'colcon_pkg'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/micro_ros_setup) by extensions ['colcon_meta']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/micro_ros_setup) by extension 'colcon_meta'
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/micro_ros_setup) by extensions ['ros']
+[0.613s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/micro_ros_setup) by extension 'ros'
+[0.614s] DEBUG:colcon.colcon_core.package_identification:Package '/home/smr/ros2_self_driving_robot/src/src/micro_ros_setup' with type 'ros.ament_cmake' and name 'micro_ros_setup'
+[0.614s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros) by extensions ['ignore', 'ignore_ament_install']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros) by extension 'ignore'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros) by extension 'ignore_ament_install'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros) by extensions ['colcon_pkg']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros) by extension 'colcon_pkg'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros) by extensions ['colcon_meta']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros) by extension 'colcon_meta'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros) by extensions ['ros']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros) by extension 'ros'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros) by extensions ['cmake', 'python']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros) by extension 'cmake'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros) by extension 'python'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros) by extensions ['python_setup_py']
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros) by extension 'python_setup_py'
+[0.615s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent) by extensions ['ignore', 'ignore_ament_install']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent) by extension 'ignore'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent) by extension 'ignore_ament_install'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent) by extensions ['colcon_pkg']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent) by extension 'colcon_pkg'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent) by extensions ['colcon_meta']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent) by extension 'colcon_meta'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent) by extensions ['ros']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent) by extension 'ros'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent) by extensions ['cmake', 'python']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent) by extension 'cmake'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent) by extension 'python'
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent) by extensions ['python_setup_py']
+[0.616s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent) by extension 'python_setup_py'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ignore', 'ignore_ament_install']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ignore_ament_install'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_pkg']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_pkg'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['colcon_meta']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'colcon_meta'
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent/micro_ros_agent) by extensions ['ros']
+[0.617s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent/micro_ros_agent) by extension 'ros'
+[0.619s] DEBUG:colcon.colcon_core.package_identification:Package '/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent/micro_ros_agent' with type 'ros.ament_cmake' and name 'micro_ros_agent'
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent/snap) by extensions ['ignore', 'ignore_ament_install']
+[0.620s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent/snap) by extension 'ignore'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent/snap) by extension 'ignore_ament_install'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent/snap) by extensions ['colcon_pkg']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent/snap) by extension 'colcon_pkg'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent/snap) by extensions ['colcon_meta']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent/snap) by extension 'colcon_meta'
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent/snap) by extensions ['ros']
+[0.621s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent/snap) by extension 'ros'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent/snap) by extensions ['cmake', 'python']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent/snap) by extension 'cmake'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent/snap) by extension 'python'
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent/snap) by extensions ['python_setup_py']
+[0.622s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent/snap) by extension 'python_setup_py'
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ignore', 'ignore_ament_install']
+[0.623s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent/snap/hooks) by extension 'ignore_ament_install'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_pkg']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_pkg'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent/snap/hooks) by extensions ['colcon_meta']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent/snap/hooks) by extension 'colcon_meta'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent/snap/hooks) by extensions ['ros']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent/snap/hooks) by extension 'ros'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent/snap/hooks) by extensions ['cmake', 'python']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent/snap/hooks) by extension 'cmake'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent/snap/hooks) by extension 'python'
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent/snap/hooks) by extensions ['python_setup_py']
+[0.624s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent/snap/hooks) by extension 'python_setup_py'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent/snap/local) by extensions ['ignore', 'ignore_ament_install']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent/snap/local) by extension 'ignore'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent/snap/local) by extension 'ignore_ament_install'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_pkg']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_pkg'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent/snap/local) by extensions ['colcon_meta']
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent/snap/local) by extension 'colcon_meta'
+[0.625s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent/snap/local) by extensions ['ros']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent/snap/local) by extension 'ros'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent/snap/local) by extensions ['cmake', 'python']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent/snap/local) by extension 'cmake'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent/snap/local) by extension 'python'
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent/snap/local) by extensions ['python_setup_py']
+[0.626s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro-ROS-Agent/snap/local) by extension 'python_setup_py'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro_ros_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro_ros_msgs) by extension 'ignore'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro_ros_msgs) by extension 'ignore_ament_install'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro_ros_msgs) by extensions ['colcon_pkg']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro_ros_msgs) by extension 'colcon_pkg'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro_ros_msgs) by extensions ['colcon_meta']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro_ros_msgs) by extension 'colcon_meta'
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro_ros_msgs) by extensions ['ros']
+[0.627s] Level 1:colcon.colcon_core.package_identification:_identify(/home/smr/ros2_self_driving_robot/src/src/uros/micro_ros_msgs) by extension 'ros'
+[0.628s] DEBUG:colcon.colcon_core.package_identification:Package '/home/smr/ros2_self_driving_robot/src/src/uros/micro_ros_msgs' with type 'ros.ament_cmake' and name 'micro_ros_msgs'
+[0.628s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults

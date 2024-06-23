@@ -1,0 +1,175 @@
+[0.000000] (-) TimerEvent: {}
+[0.000883] (-) JobUnselected: {'identifier': 'micro_ros_agent'}
+[0.001155] (-) JobUnselected: {'identifier': 'micro_ros_msgs'}
+[0.001440] (-) JobUnselected: {'identifier': 'micro_ros_setup'}
+[0.001519] (-) JobUnselected: {'identifier': 'nav2_behavior_plugin'}
+[0.001572] (-) JobUnselected: {'identifier': 'python_pkg'}
+[0.001623] (-) JobUnselected: {'identifier': 'robot_bringup'}
+[0.001671] (-) JobUnselected: {'identifier': 'robot_description'}
+[0.001723] (-) JobUnselected: {'identifier': 'robot_navigation'}
+[0.001775] (-) JobUnselected: {'identifier': 'sllidar_ros2'}
+[0.001840] (my_nav2_behavior_tree) JobQueued: {'identifier': 'my_nav2_behavior_tree', 'dependencies': OrderedDict([('nav2_behavior_plugin', '/home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin')])}
+[0.001908] (my_nav2_behavior_tree) JobStarted: {'identifier': 'my_nav2_behavior_tree'}
+[0.040882] (my_nav2_behavior_tree) JobProgress: {'identifier': 'my_nav2_behavior_tree', 'progress': 'cmake'}
+[0.043087] (my_nav2_behavior_tree) JobProgress: {'identifier': 'my_nav2_behavior_tree', 'progress': 'build'}
+[0.044577] (my_nav2_behavior_tree) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/smr/ros2_self_driving_robot/build/my_nav2_behavior_tree', '--', '-j8', '-l8'], 'cwd': '/home/smr/ros2_self_driving_robot/build/my_nav2_behavior_tree', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('LINOROBOT2_BASE', '2wd'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'smr'), ('LC_TIME', 'th_TH.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/lib:/home/smr/ros2_self_driving_robot/install/nav2_behavior_tree/lib:/home/smr/ros2_self_driving_robot/install/micro_ros_agent/lib:/home/smr/ros2_self_driving_robot/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/smr'), ('MUTTER_DEBUG_ENABLE_ATOMIC_KMS', '0'), ('OLDPWD', '/home/smr'), ('DESKTOP_SESSION', 'ubuntu'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/terminator.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'th_TH.UTF-8'), ('MANAGERPID', '1149'), ('SYSTEMD_EXEC_PID', '1564'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('TERMINATOR_DBUS_NAME', 'net.tenshu.Terminator21a9d5db22c73a993ff0b42f64b396873'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '2301'), ('IM_CONFIG_PHASE', '1'), ('COLCON_PREFIX_PATH', '/home/smr/ros2_self_driving_robot/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'smr'), ('JOURNAL_STREAM', '8:38174'), ('_', '/usr/local/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'smr'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/smr/.platformio/penv/bin:/path/to/gcc-arm-none-eabi-9-2020-q2-update/bin:/path/to/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/smr/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/smr/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/smr/.platformio/penv/bin:/path/to/gcc-arm-none-eabi-9-2020-q2-update/bin:/path/to/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/smr/gcc-arm-none-eabi-9-2020-q2-update/bin:/home/smr/gcc-arm-none-eabi-9-2020-q2-update/bin'), ('SESSION_MANAGER', 'local/orange-pi:@/tmp/.ICE-unix/1541,unix/orange-pi:/tmp/.ICE-unix/1541'), ('INVOCATION_ID', '59f61040f64049ab83f4b43e37b75f97'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'th_TH.UTF-8'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('TERMINATOR_DBUS_PATH', '/net/tenshu/Terminator2'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('IBUS_DISABLE_SNOOPER', '1'), ('LC_TELEPHONE', 'th_TH.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '19'), ('AMENT_PREFIX_PATH', '/home/smr/ros2_self_driving_robot/install/sllidar_ros2:/home/smr/ros2_self_driving_robot/install/robot_navigation:/home/smr/ros2_self_driving_robot/install/robot_description:/home/smr/ros2_self_driving_robot/install/robot_bringup:/home/smr/ros2_self_driving_robot/install/python_pkg:/home/smr/ros2_self_driving_robot/install/nav2_behavior_tree:/home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin:/home/smr/ros2_self_driving_robot/install/micro_ros_setup:/home/smr/ros2_self_driving_robot/install/micro_ros_agent:/home/smr/ros2_self_driving_robot/install/micro_ros_msgs:/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'th_TH.UTF-8'), ('TERMINATOR_UUID', 'urn:uuid:38878a94-8e7e-43cc-a9f9-c87f3bb7d5eb'), ('CLUTTER_PAINT', 'disable-dynamic-max-render-time'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'th_TH.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'th_TH.UTF-8'), ('MUTTER_DEBUG_FORCE_KMS_MODE', 'simple'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/smr/ros2_self_driving_robot/build/my_nav2_behavior_tree'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('LINOROBOT2_DEPTH_SENSOR', 'realsense'), ('PYTHONPATH', '/home/smr/ros2_self_driving_robot/install/python_pkg/lib/python3.10/site-packages:/home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/local/lib/python3.10/dist-packages:/home/smr/ros2_self_driving_robot/install/micro_ros_msgs/local/lib/python3.10/dist-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'th_TH.UTF-8'), ('LC_PAPER', 'th_TH.UTF-8'), ('COLCON', '1'), ('LINOROBOT2_LASER_SENSOR', 'c1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin:/home/smr/ros2_self_driving_robot/install/sllidar_ros2:/home/smr/ros2_self_driving_robot/install/robot_navigation:/home/smr/ros2_self_driving_robot/install/robot_description:/home/smr/ros2_self_driving_robot/install/robot_bringup:/home/smr/ros2_self_driving_robot/install/nav2_behavior_tree:/home/smr/ros2_self_driving_robot/install/micro_ros_setup:/home/smr/ros2_self_driving_robot/install/micro_ros_agent:/home/smr/ros2_self_driving_robot/install/micro_ros_msgs:/opt/ros/humble:/home/smr/ros2_self_driving_robot/install/python_pkg')]), 'shell': False}
+[0.099114] (-) TimerEvent: {}
+[0.199493] (-) TimerEvent: {}
+[0.239800] (my_nav2_behavior_tree) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target nav2_obstacle_warning_action_bt_node\x1b[0m\n'}
+[0.299775] (-) TimerEvent: {}
+[0.313678] (my_nav2_behavior_tree) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/nav2_obstacle_warning_action_bt_node.dir/src/obstacle_warning_action.cpp.o\x1b[0m\n'}
+[0.399980] (-) TimerEvent: {}
+[0.500741] (-) TimerEvent: {}
+[0.601506] (-) TimerEvent: {}
+[0.702286] (-) TimerEvent: {}
+[0.803084] (-) TimerEvent: {}
+[0.904070] (-) TimerEvent: {}
+[1.004910] (-) TimerEvent: {}
+[1.105761] (-) TimerEvent: {}
+[1.206582] (-) TimerEvent: {}
+[1.307388] (-) TimerEvent: {}
+[1.408183] (-) TimerEvent: {}
+[1.509069] (-) TimerEvent: {}
+[1.609983] (-) TimerEvent: {}
+[1.710861] (-) TimerEvent: {}
+[1.811752] (-) TimerEvent: {}
+[1.912580] (-) TimerEvent: {}
+[2.013360] (-) TimerEvent: {}
+[2.114127] (-) TimerEvent: {}
+[2.214968] (-) TimerEvent: {}
+[2.315790] (-) TimerEvent: {}
+[2.416641] (-) TimerEvent: {}
+[2.517521] (-) TimerEvent: {}
+[2.618378] (-) TimerEvent: {}
+[2.719210] (-) TimerEvent: {}
+[2.819993] (-) TimerEvent: {}
+[2.920769] (-) TimerEvent: {}
+[3.021573] (-) TimerEvent: {}
+[3.122959] (-) TimerEvent: {}
+[3.223749] (-) TimerEvent: {}
+[3.324545] (-) TimerEvent: {}
+[3.425434] (-) TimerEvent: {}
+[3.526280] (-) TimerEvent: {}
+[3.627137] (-) TimerEvent: {}
+[3.727965] (-) TimerEvent: {}
+[3.828805] (-) TimerEvent: {}
+[3.929576] (-) TimerEvent: {}
+[4.030418] (-) TimerEvent: {}
+[4.131230] (-) TimerEvent: {}
+[4.232108] (-) TimerEvent: {}
+[4.290508] (my_nav2_behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:24:1:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KNotifyAction\x1b[m\x1b[K\xe2\x80\x99 does not name a type\n'}
+[4.291286] (my_nav2_behavior_tree) StderrLine: {'line': b'   24 | \x1b[01;31m\x1b[KNotifyAction\x1b[m\x1b[K::NotifyAction(\n'}
+[4.291751] (my_nav2_behavior_tree) StderrLine: {'line': b'      | \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.292212] (my_nav2_behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:33:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KNotifyAction\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[4.292627] (my_nav2_behavior_tree) StderrLine: {'line': b'   33 | void \x1b[01;31m\x1b[KNotifyAction\x1b[m\x1b[K::initialize()\n'}
+[4.293016] (my_nav2_behavior_tree) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.296992] (my_nav2_behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid my_nav2_behavior_tree::initialize()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.297583] (my_nav2_behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:36:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KgetInput\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kgetpt\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.298023] (my_nav2_behavior_tree) StderrLine: {'line': b'   36 |   \x1b[01;31m\x1b[KgetInput\x1b[m\x1b[K("message_to_send", message);\n'}
+[4.298434] (my_nav2_behavior_tree) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~\x1b[m\x1b[K\n'}
+[4.298875] (my_nav2_behavior_tree) StderrLine: {'line': b'      |   \x1b[32m\x1b[Kgetpt\x1b[m\x1b[K\n'}
+[4.302559] (my_nav2_behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:44:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kgoal_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.303259] (my_nav2_behavior_tree) StderrLine: {'line': b'   44 |   \x1b[01;31m\x1b[Kgoal_\x1b[m\x1b[K.message = message;\n'}
+[4.303720] (my_nav2_behavior_tree) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~\x1b[m\x1b[K\n'}
+[4.308976] (my_nav2_behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:45:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kinitialized_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kinitialize\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.309294] (my_nav2_behavior_tree) StderrLine: {'line': b'   45 |   \x1b[01;31m\x1b[Kinitialized_\x1b[m\x1b[K = true;\n'}
+[4.309395] (my_nav2_behavior_tree) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.309482] (my_nav2_behavior_tree) StderrLine: {'line': b'      |   \x1b[32m\x1b[Kinitialize\x1b[m\x1b[K\n'}
+[4.309565] (my_nav2_behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:\x1b[m\x1b[K At global scope:\n'}
+[4.309648] (my_nav2_behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:48:6:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KNotifyAction\x1b[m\x1b[K\xe2\x80\x99 has not been declared\n'}
+[4.309736] (my_nav2_behavior_tree) StderrLine: {'line': b'   48 | void \x1b[01;31m\x1b[KNotifyAction\x1b[m\x1b[K::on_tick()\n'}
+[4.309817] (my_nav2_behavior_tree) StderrLine: {'line': b'      |      \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.315894] (my_nav2_behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid my_nav2_behavior_tree::on_tick()\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.316136] (my_nav2_behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:50:8:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kinitialized_\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope; did you mean \xe2\x80\x98\x1b[01m\x1b[Kinitialize\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.316254] (my_nav2_behavior_tree) StderrLine: {'line': b'   50 |   if (!\x1b[01;31m\x1b[Kinitialized_\x1b[m\x1b[K) {\n'}
+[4.316344] (my_nav2_behavior_tree) StderrLine: {'line': b'      |        \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.316428] (my_nav2_behavior_tree) StderrLine: {'line': b'      |        \x1b[32m\x1b[Kinitialize\x1b[m\x1b[K\n'}
+[4.328464] (my_nav2_behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:54:3:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Kincrement_recovery_count\x1b[m\x1b[K\xe2\x80\x99 was not declared in this scope\n'}
+[4.328719] (my_nav2_behavior_tree) StderrLine: {'line': b'   54 |   \x1b[01;31m\x1b[Kincrement_recovery_count\x1b[m\x1b[K();\n'}
+[4.328807] (my_nav2_behavior_tree) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.332140] (-) TimerEvent: {}
+[4.405573] (my_nav2_behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:\x1b[m\x1b[K In lambda function:\n'}
+[4.405963] (my_nav2_behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:65:54:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KNotifyAction\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kmy_nav2_behavior_tree\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Knav2_behavior_tree::NotifyAction\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.406088] (my_nav2_behavior_tree) StderrLine: {'line': b'   65 |       return std::make_unique<my_nav2_behavior_tree::\x1b[01;31m\x1b[KNotifyAction\x1b[m\x1b[K>(name, "notify", config);\n'}
+[4.406175] (my_nav2_behavior_tree) StderrLine: {'line': b'      |                                                      \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.406258] (my_nav2_behavior_tree) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:19\x1b[m\x1b[K:\n'}
+[4.406339] (my_nav2_behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/include/my_nav2_behavior_tree/obstacle_warning_action.hpp:29:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knav2_behavior_tree::NotifyAction\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[4.406437] (my_nav2_behavior_tree) StderrLine: {'line': b'   29 | class \x1b[01;36m\x1b[KNotifyAction\x1b[m\x1b[K : public BtActionNode<nav2_behavior_plugin::action::ObstacleWarning>\n'}
+[4.406530] (my_nav2_behavior_tree) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.406611] (my_nav2_behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:65:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[Kmake_unique<<expression error> >(const string&, const char [7], const BT::NodeConfiguration&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.406693] (my_nav2_behavior_tree) StderrLine: {'line': b'   65 |       return \x1b[01;31m\x1b[Kstd::make_unique<my_nav2_behavior_tree::NotifyAction>(name, "notify", config)\x1b[m\x1b[K;\n'}
+[4.406899] (my_nav2_behavior_tree) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.406985] (my_nav2_behavior_tree) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[4.407063] (my_nav2_behavior_tree) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:16\x1b[m\x1b[K:\n'}
+[4.407141] (my_nav2_behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:961:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class ... _Args> typename std::_MakeUniq<_Tp>::__single_object std::make_unique(_Args&& ...)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.407221] (my_nav2_behavior_tree) StderrLine: {'line': b'  961 |     \x1b[01;36m\x1b[Kmake_unique\x1b[m\x1b[K(_Args&&... __args)\n'}
+[4.407298] (my_nav2_behavior_tree) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.407375] (my_nav2_behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:961:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.407452] (my_nav2_behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:65:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[4.407530] (my_nav2_behavior_tree) StderrLine: {'line': b'   65 |       return \x1b[01;31m\x1b[Kstd::make_unique<my_nav2_behavior_tree::NotifyAction>(name, "notify", config)\x1b[m\x1b[K;\n'}
+[4.407608] (my_nav2_behavior_tree) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.407683] (my_nav2_behavior_tree) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[4.407759] (my_nav2_behavior_tree) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:16\x1b[m\x1b[K:\n'}
+[4.407855] (my_nav2_behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:967:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp> typename std::_MakeUniq<_Tp>::__array std::make_unique(std::size_t)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.408313] (my_nav2_behavior_tree) StderrLine: {'line': b'  967 |     \x1b[01;36m\x1b[Kmake_unique\x1b[m\x1b[K(size_t __num)\n'}
+[4.408395] (my_nav2_behavior_tree) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.408487] (my_nav2_behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:967:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.408591] (my_nav2_behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:65:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[4.408673] (my_nav2_behavior_tree) StderrLine: {'line': b'   65 |       return \x1b[01;31m\x1b[Kstd::make_unique<my_nav2_behavior_tree::NotifyAction>(name, "notify", config)\x1b[m\x1b[K;\n'}
+[4.408752] (my_nav2_behavior_tree) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.408829] (my_nav2_behavior_tree) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/usr/include/c++/11/memory:76\x1b[m\x1b[K,\n'}
+[4.408906] (my_nav2_behavior_tree) StderrLine: {'line': b'                 from \x1b[01m\x1b[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:16\x1b[m\x1b[K:\n'}
+[4.408984] (my_nav2_behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:973:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class _Tp, class ... _Args> typename std::_MakeUniq<_Tp>::__invalid_type std::make_unique(_Args&& ...)\x1b[m\x1b[K\xe2\x80\x99 (deleted)\n'}
+[4.409065] (my_nav2_behavior_tree) StderrLine: {'line': b'  973 |     \x1b[01;36m\x1b[Kmake_unique\x1b[m\x1b[K(_Args&&...) = delete;\n'}
+[4.409141] (my_nav2_behavior_tree) StderrLine: {'line': b'      |     \x1b[01;36m\x1b[K^~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.409214] (my_nav2_behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/usr/include/c++/11/bits/unique_ptr.h:973:5:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.409290] (my_nav2_behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:65:67:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[4.409366] (my_nav2_behavior_tree) StderrLine: {'line': b'   65 |       return \x1b[01;31m\x1b[Kstd::make_unique<my_nav2_behavior_tree::NotifyAction>(name, "notify", config)\x1b[m\x1b[K;\n'}
+[4.409441] (my_nav2_behavior_tree) StderrLine: {'line': b'      |              \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.409515] (my_nav2_behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:\x1b[m\x1b[K In function \xe2\x80\x98\x1b[01m\x1b[Kvoid BT_RegisterNodesFromPlugin(BT::BehaviorTreeFactory&)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[4.409609] (my_nav2_behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:66:5:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kconversion from \xe2\x80\x98\x1b[01m\x1b[KBT_RegisterNodesFromPlugin(BT::BehaviorTreeFactory&)::<lambda(const string&, const BT::NodeConfiguration&)>\x1b[m\x1b[K\xe2\x80\x99 to non-scalar type \xe2\x80\x98\x1b[01m\x1b[KBT::NodeBuilder\x1b[m\x1b[K\xe2\x80\x99 {aka \xe2\x80\x98\x1b[01m\x1b[Kstd::function<std::unique_ptr<BT::TreeNode>(const std::__cxx11::basic_string<char>&, const BT::NodeConfiguration&)>\x1b[m\x1b[K\xe2\x80\x99} requested\n'}
+[4.409713] (my_nav2_behavior_tree) StderrLine: {'line': b'   66 |     \x1b[01;31m\x1b[K}\x1b[m\x1b[K;\n'}
+[4.409792] (my_nav2_behavior_tree) StderrLine: {'line': b'      |     \x1b[01;31m\x1b[K^\x1b[m\x1b[K\n'}
+[4.409870] (my_nav2_behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:68:50:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[KNotifyAction\x1b[m\x1b[K\xe2\x80\x99 is not a member of \xe2\x80\x98\x1b[01m\x1b[Kmy_nav2_behavior_tree\x1b[m\x1b[K\xe2\x80\x99; did you mean \xe2\x80\x98\x1b[01m\x1b[Knav2_behavior_tree::NotifyAction\x1b[m\x1b[K\xe2\x80\x99?\n'}
+[4.409952] (my_nav2_behavior_tree) StderrLine: {'line': b'   68 |   factory.registerBuilder<my_nav2_behavior_tree::\x1b[01;31m\x1b[KNotifyAction\x1b[m\x1b[K>("Notify", builder);\n'}
+[4.410030] (my_nav2_behavior_tree) StderrLine: {'line': b'      |                                                  \x1b[01;31m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.410107] (my_nav2_behavior_tree) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:19\x1b[m\x1b[K:\n'}
+[4.410184] (my_nav2_behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/include/my_nav2_behavior_tree/obstacle_warning_action.hpp:29:7:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K\xe2\x80\x98\x1b[01m\x1b[Knav2_behavior_tree::NotifyAction\x1b[m\x1b[K\xe2\x80\x99 declared here\n'}
+[4.410262] (my_nav2_behavior_tree) StderrLine: {'line': b'   29 | class \x1b[01;36m\x1b[KNotifyAction\x1b[m\x1b[K : public BtActionNode<nav2_behavior_plugin::action::ObstacleWarning>\n'}
+[4.410338] (my_nav2_behavior_tree) StderrLine: {'line': b'      |       \x1b[01;36m\x1b[K^~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.410414] (my_nav2_behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:68:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Kno matching function for call to \xe2\x80\x98\x1b[01m\x1b[KBT::BehaviorTreeFactory::registerBuilder<<expression error> >(const char [7], BT::NodeBuilder&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.410494] (my_nav2_behavior_tree) StderrLine: {'line': b'   68 |   \x1b[01;31m\x1b[Kfactory.registerBuilder<my_nav2_behavior_tree::NotifyAction>("Notify", builder)\x1b[m\x1b[K;\n'}
+[4.410570] (my_nav2_behavior_tree) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.410656] (my_nav2_behavior_tree) StderrLine: {'line': b'In file included from \x1b[01m\x1b[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:59\x1b[m\x1b[K:\n'}
+[4.410739] (my_nav2_behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:267:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[Kcandidate: \xe2\x80\x98\x1b[01m\x1b[Ktemplate<class T> void BT::BehaviorTreeFactory::registerBuilder(const string&, const NodeBuilder&)\x1b[m\x1b[K\xe2\x80\x99\n'}
+[4.410818] (my_nav2_behavior_tree) StderrLine: {'line': b'  267 |   void \x1b[01;36m\x1b[KregisterBuilder\x1b[m\x1b[K(const std::string& ID, const NodeBuilder& builder)\n'}
+[4.410896] (my_nav2_behavior_tree) StderrLine: {'line': b'      |        \x1b[01;36m\x1b[K^~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.410970] (my_nav2_behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:267:8:\x1b[m\x1b[K \x1b[01;36m\x1b[Knote: \x1b[m\x1b[K  template argument deduction/substitution failed:\n'}
+[4.411045] (my_nav2_behavior_tree) StderrLine: {'line': b'\x1b[01m\x1b[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:68:63:\x1b[m\x1b[K \x1b[01;31m\x1b[Kerror: \x1b[m\x1b[Ktemplate argument 1 is invalid\n'}
+[4.411134] (my_nav2_behavior_tree) StderrLine: {'line': b'   68 |   \x1b[01;31m\x1b[Kfactory.registerBuilder<my_nav2_behavior_tree::NotifyAction>("Notify", builder)\x1b[m\x1b[K;\n'}
+[4.411213] (my_nav2_behavior_tree) StderrLine: {'line': b'      |   \x1b[01;31m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~\x1b[m\x1b[K\n'}
+[4.432261] (-) TimerEvent: {}
+[4.532644] (-) TimerEvent: {}
+[4.633149] (-) TimerEvent: {}
+[4.733726] (-) TimerEvent: {}
+[4.834215] (-) TimerEvent: {}
+[4.934718] (-) TimerEvent: {}
+[5.035199] (-) TimerEvent: {}
+[5.135668] (-) TimerEvent: {}
+[5.236151] (-) TimerEvent: {}
+[5.336632] (-) TimerEvent: {}
+[5.437107] (-) TimerEvent: {}
+[5.537581] (-) TimerEvent: {}
+[5.638057] (-) TimerEvent: {}
+[5.738543] (-) TimerEvent: {}
+[5.839040] (-) TimerEvent: {}
+[5.939560] (-) TimerEvent: {}
+[6.040035] (-) TimerEvent: {}
+[6.135674] (my_nav2_behavior_tree) StderrLine: {'line': b'gmake[2]: *** [CMakeFiles/nav2_obstacle_warning_action_bt_node.dir/build.make:76: CMakeFiles/nav2_obstacle_warning_action_bt_node.dir/src/obstacle_warning_action.cpp.o] Error 1\n'}
+[6.136849] (my_nav2_behavior_tree) StderrLine: {'line': b'gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/nav2_obstacle_warning_action_bt_node.dir/all] Error 2\n'}
+[6.137405] (my_nav2_behavior_tree) StderrLine: {'line': b'gmake: *** [Makefile:146: all] Error 2\n'}
+[6.140084] (-) TimerEvent: {}
+[6.143864] (my_nav2_behavior_tree) CommandEnded: {'returncode': 2}
+[6.240864] (-) TimerEvent: {}
+[6.250865] (my_nav2_behavior_tree) JobEnded: {'identifier': 'my_nav2_behavior_tree', 'rc': 2}
+[6.261554] (-) EventReactorShutdown: {}

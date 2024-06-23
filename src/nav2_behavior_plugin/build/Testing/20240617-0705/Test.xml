@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Site BuildName="(empty)"
+	BuildStamp="20240617-0705-Experimental"
+	Name="orange-pi"
+	Generator="ctest-3.22.1"
+	CompilerName="/usr/bin/c++"
+	CompilerVersion="11.4.0"
+	OSName="Linux"
+	Hostname="orange-pi"
+	OSRelease="5.10.160-rockchip"
+	OSVersion="#37 SMP Fri Apr 26 05:16:30 UTC 2024"
+	OSPlatform="aarch64"
+	Is64Bits="1"
+	VendorString=""
+	VendorID="Unknown Manufacturer"
+	FamilyID="8"
+	ModelID="0"
+	ProcessorCacheSize="0"
+	NumberOfLogicalCPU="8"
+	NumberOfPhysicalCPU="1"
+	TotalVirtualMemory="1023"
+	TotalPhysicalMemory="3919"
+	LogicalProcessorsPerPhysical="8"
+	ProcessorClockFrequency="0"
+	>
+	<Testing>
+		<StartDateTime>Jun 17 17:01 +07</StartDateTime>
+		<StartTestTime>1718618461</StartTestTime>
+		<TestList/>
+		<EndDateTime>Jun 17 17:01 +07</EndDateTime>
+		<EndTestTime>1718618461</EndTestTime>
+		<ElapsedMinutes>0</ElapsedMinutes>
+	</Testing>
+</Site>

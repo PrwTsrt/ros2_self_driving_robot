@@ -1,0 +1,4 @@
+source;share/nav2_behavior_plugin/environment/ament_prefix_path.sh
+source;share/nav2_behavior_plugin/environment/library_path.sh
+source;share/nav2_behavior_plugin/environment/path.sh
+source;share/nav2_behavior_plugin/environment/pythonpath.sh

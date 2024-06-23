@@ -1,9 +1,0 @@
-[0.055s] Invoking command in '/home/smr/ros2_self_driving_robot/build/robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/smr/ros2_self_driving_robot/build/robot_description -- -j8 -l8
-[0.316s] Invoked command in '/home/smr/ros2_self_driving_robot/build/robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/smr/ros2_self_driving_robot/build/robot_description -- -j8 -l8
-[0.392s] Invoking command in '/home/smr/ros2_self_driving_robot/build/robot_description': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/smr/ros2_self_driving_robot/build/robot_description
-[0.416s] -- Install configuration: ""
-[0.422s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/robot_description/share/robot_description/launch
-[0.423s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/robot_description/share/robot_description/urdf
-[0.426s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/robot_description/share/robot_description/rviz
-[0.435s] -- Installing: /home/smr/ros2_self_driving_robot/install/robot_description/share/robot_description/package.dsv
-[0.468s] Invoked command in '/home/smr/ros2_self_driving_robot/build/robot_description' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/smr/ros2_self_driving_robot/build/robot_description

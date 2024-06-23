@@ -1,0 +1,5 @@
+	<library path="nav2_behavior_plugin_">
+          <class name="nav2_behavior_plugin/Notify" type="nav2_behavior_plugin::Notify" base_class_type="nav2_core::Behavior">
+            <description>This is a plugin which produces a line text message behavior.</description>
+          </class>
+        </library>  

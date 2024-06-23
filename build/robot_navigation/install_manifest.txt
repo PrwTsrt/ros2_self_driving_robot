@@ -4,10 +4,13 @@
 /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/launch/collision_monitor_node.launch.py
 /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/config/mapper_params_online_async.yaml
 /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/config/collision_monitor_params.yaml
+/home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/config/.navigation.yaml.swp
 /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/config/navigation.yaml
 /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/rviz/slam.rviz
+/home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/rviz/navigation.rviz
 /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/maps/2_map_save.yaml
 /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/maps/first_map_save.pgm
+/home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/maps/test_save.yaml
 /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/maps/first_map_serial.data
 /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/maps/4_map_serial.data
 /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/maps/2_map_serial.data
@@ -18,6 +21,7 @@
 /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/maps/2_map_serial.posegraph
 /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/maps/2_map_save.pgm
 /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/maps/lobby_serial.data
+/home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/maps/test_save.pgm
 /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/maps/lobby_save.pgm
 /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/maps/first_map_save.yaml
 /home/smr/ros2_self_driving_robot/install/robot_navigation/share/robot_navigation/maps/4_map_serial.posegraph

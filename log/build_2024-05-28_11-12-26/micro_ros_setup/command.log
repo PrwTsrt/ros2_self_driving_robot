@@ -1,6 +1,0 @@
-Invoking command in '/home/smr/ros2_self_driving_robot/build/micro_ros_setup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/smr/ros2_self_driving_robot/src/src/micro_ros_setup -DCMAKE_INSTALL_PREFIX=/home/smr/ros2_self_driving_robot/install/micro_ros_setup
-Invoked command in '/home/smr/ros2_self_driving_robot/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/smr/ros2_self_driving_robot/src/src/micro_ros_setup -DCMAKE_INSTALL_PREFIX=/home/smr/ros2_self_driving_robot/install/micro_ros_setup
-Invoking command in '/home/smr/ros2_self_driving_robot/build/micro_ros_setup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/smr/ros2_self_driving_robot/build/micro_ros_setup -- -j8 -l8
-Invoked command in '/home/smr/ros2_self_driving_robot/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/smr/ros2_self_driving_robot/build/micro_ros_setup -- -j8 -l8
-Invoking command in '/home/smr/ros2_self_driving_robot/build/micro_ros_setup': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/smr/ros2_self_driving_robot/build/micro_ros_setup
-Invoked command in '/home/smr/ros2_self_driving_robot/build/micro_ros_setup' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/smr/ros2_self_driving_robot/build/micro_ros_setup

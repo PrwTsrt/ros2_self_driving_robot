@@ -368,7 +368,7 @@ micro_ros_agent_SOURCE_DIR:STATIC=/home/smr/ros2_self_driving_robot/src/src/uros
 micro_ros_msgs_DIR:PATH=/home/smr/ros2_self_driving_robot/install/micro_ros_msgs/share/micro_ros_msgs/cmake
 
 //The directory containing a CMake configuration file for microxrcedds_agent.
-microxrcedds_agent_DIR:PATH=/home/smr/ros2_self_driving_robot/src/install/micro_ros_agent/share/microxrcedds_agent/cmake
+microxrcedds_agent_DIR:PATH=/home/smr/ros2_self_driving_robot/install/micro_ros_agent/share/microxrcedds_agent/cmake
 
 //Path to a library.
 pkgcfg_lib__OPENSSL_crypto:FILEPATH=/usr/lib/aarch64-linux-gnu/libcrypto.so

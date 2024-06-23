@@ -1,0 +1,26 @@
+[0.576s] Invoking command in '/home/smr/ros2_self_driving_robot/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/smr/ros2_self_driving_robot/install/python_pkg /usr/bin/cmake --build /home/smr/ros2_self_driving_robot/build/robot_description -- -j8 -l8
+[0.742s] Invoked command in '/home/smr/ros2_self_driving_robot/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/smr/ros2_self_driving_robot/install/python_pkg /usr/bin/cmake --build /home/smr/ros2_self_driving_robot/build/robot_description -- -j8 -l8
+[0.872s] Invoking command in '/home/smr/ros2_self_driving_robot/build/robot_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/smr/ros2_self_driving_robot/install/python_pkg /usr/bin/cmake --install /home/smr/ros2_self_driving_robot/build/robot_description
+[0.921s] -- Install configuration: ""
+[0.921s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/robot_description/share/robot_description/launch
+[0.921s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/robot_description/share/robot_description/launch/display.launch.py
+[0.921s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/robot_description/share/robot_description/urdf
+[0.921s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/robot_description/share/robot_description/urdf/bb_bot.urdf.xacro
+[0.921s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/robot_description/share/robot_description/rviz
+[0.925s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/robot_description/share/robot_description/rviz/display.rviz
+[0.925s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/robot_description/share/ament_index/resource_index/package_run_dependencies/robot_description
+[0.925s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/robot_description/share/ament_index/resource_index/parent_prefix_path/robot_description
+[0.925s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/robot_description/share/robot_description/environment/ament_prefix_path.sh
+[0.926s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/robot_description/share/robot_description/environment/ament_prefix_path.dsv
+[0.926s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/robot_description/share/robot_description/environment/path.sh
+[0.926s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/robot_description/share/robot_description/environment/path.dsv
+[0.926s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/robot_description/share/robot_description/local_setup.bash
+[0.926s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/robot_description/share/robot_description/local_setup.sh
+[0.926s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/robot_description/share/robot_description/local_setup.zsh
+[0.926s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/robot_description/share/robot_description/local_setup.dsv
+[0.926s] -- Installing: /home/smr/ros2_self_driving_robot/install/robot_description/share/robot_description/package.dsv
+[0.926s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/robot_description/share/ament_index/resource_index/packages/robot_description
+[0.926s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/robot_description/share/robot_description/cmake/robot_descriptionConfig.cmake
+[0.926s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/robot_description/share/robot_description/cmake/robot_descriptionConfig-version.cmake
+[0.926s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/robot_description/share/robot_description/package.xml
+[0.934s] Invoked command in '/home/smr/ros2_self_driving_robot/build/robot_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/smr/ros2_self_driving_robot/install/python_pkg /usr/bin/cmake --install /home/smr/ros2_self_driving_robot/build/robot_description

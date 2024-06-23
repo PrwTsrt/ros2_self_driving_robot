@@ -1,0 +1,23 @@
+[35m[1mConsolidate compiler generated dependencies of target micro_ros_agent[0m
+[100%] Built target micro_ros_agent
+-- Install configuration: ""
+-- Installing: /home/smr/ros2_self_driving_robot/install/micro_ros_agent/share/ament_index/resource_index/package_run_dependencies/micro_ros_agent
+-- Installing: /home/smr/ros2_self_driving_robot/install/micro_ros_agent/share/ament_index/resource_index/parent_prefix_path/micro_ros_agent
+-- Installing: /home/smr/ros2_self_driving_robot/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.sh
+-- Installing: /home/smr/ros2_self_driving_robot/install/micro_ros_agent/share/micro_ros_agent/environment/ament_prefix_path.dsv
+-- Installing: /home/smr/ros2_self_driving_robot/install/micro_ros_agent/share/micro_ros_agent/environment/path.sh
+-- Installing: /home/smr/ros2_self_driving_robot/install/micro_ros_agent/share/micro_ros_agent/environment/path.dsv
+-- Installing: /home/smr/ros2_self_driving_robot/install/micro_ros_agent/share/micro_ros_agent/local_setup.bash
+-- Installing: /home/smr/ros2_self_driving_robot/install/micro_ros_agent/share/micro_ros_agent/local_setup.sh
+-- Installing: /home/smr/ros2_self_driving_robot/install/micro_ros_agent/share/micro_ros_agent/local_setup.zsh
+-- Installing: /home/smr/ros2_self_driving_robot/install/micro_ros_agent/share/micro_ros_agent/local_setup.dsv
+-- Installing: /home/smr/ros2_self_driving_robot/install/micro_ros_agent/share/micro_ros_agent/package.dsv
+-- Installing: /home/smr/ros2_self_driving_robot/install/micro_ros_agent/share/ament_index/resource_index/packages/micro_ros_agent
+-- Installing: /home/smr/ros2_self_driving_robot/install/micro_ros_agent/share/micro_ros_agent/cmake/ament_cmake_export_dependencies-extras.cmake
+-- Installing: /home/smr/ros2_self_driving_robot/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig.cmake
+-- Installing: /home/smr/ros2_self_driving_robot/install/micro_ros_agent/share/micro_ros_agent/cmake/micro_ros_agentConfig-version.cmake
+-- Installing: /home/smr/ros2_self_driving_robot/install/micro_ros_agent/share/micro_ros_agent/package.xml
+-- Installing: /home/smr/ros2_self_driving_robot/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent
+-- Set runtime path of "/home/smr/ros2_self_driving_robot/install/micro_ros_agent/lib/micro_ros_agent/micro_ros_agent" to ""
+-- Installing: /home/smr/ros2_self_driving_robot/install/micro_ros_agent/share/micro_ros_agent/launch
+-- Installing: /home/smr/ros2_self_driving_robot/install/micro_ros_agent/share/micro_ros_agent/launch/micro_ros_agent_launch.py

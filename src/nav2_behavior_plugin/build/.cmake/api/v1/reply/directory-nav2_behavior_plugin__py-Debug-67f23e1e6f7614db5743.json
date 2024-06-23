@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "nav2_behavior_plugin__py",
+		"source" : "build/nav2_behavior_plugin__py"
+	}
+}

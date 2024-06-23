@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target nav2_obstacle_warning_action_bt_node[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/nav2_obstacle_warning_action_bt_node.dir/src/obstacle_warning_action.cpp.o[0m
+[100%] [32m[1mLinking CXX shared library libnav2_obstacle_warning_action_bt_node.so[0m
+[100%] Built target nav2_obstacle_warning_action_bt_node
+-- Install configuration: "Release"
+-- Installing: /home/smr/ros2_self_driving_robot/install/my_nav2_behavior_tree/lib/libnav2_obstacle_warning_action_bt_node.so
+-- Set runtime path of "/home/smr/ros2_self_driving_robot/install/my_nav2_behavior_tree/lib/libnav2_obstacle_warning_action_bt_node.so" to ""
+-- Installing: /home/smr/ros2_self_driving_robot/install/my_nav2_behavior_tree/include/
+-- Installing: /home/smr/ros2_self_driving_robot/install/my_nav2_behavior_tree/include//my_nav2_behavior_tree
+-- Installing: /home/smr/ros2_self_driving_robot/install/my_nav2_behavior_tree/include//my_nav2_behavior_tree/obstacle_warning_action.hpp

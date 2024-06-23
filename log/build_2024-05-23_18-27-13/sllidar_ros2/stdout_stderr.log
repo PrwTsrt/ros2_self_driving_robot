@@ -1,6 +1,0 @@
-[ 90%] Built target sllidar_node
-[100%] Built target sllidar_client
--- Install configuration: ""
--- Up-to-date: /home/smr/ros2_self_driving_robot/install/sllidar_ros2/share/sllidar_ros2/launch
--- Up-to-date: /home/smr/ros2_self_driving_robot/install/sllidar_ros2/share/sllidar_ros2/rviz
--- Installing: /home/smr/ros2_self_driving_robot/install/sllidar_ros2/share/sllidar_ros2/package.dsv

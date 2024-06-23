@@ -1,0 +1,57 @@
+[0.538s] Invoking command in '/home/smr/ros2_self_driving_robot/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/smr/ros2_self_driving_robot/install/python_pkg /usr/bin/cmake --build /home/smr/ros2_self_driving_robot/build/sllidar_ros2 -- -j8 -l8
+[0.760s] [35m[1mConsolidate compiler generated dependencies of target sllidar_client[0m
+[0.774s] [35m[1mConsolidate compiler generated dependencies of target sllidar_node[0m
+[0.872s] [ 10%] Built target sllidar_client
+[0.945s] [100%] Built target sllidar_node
+[1.096s] Invoked command in '/home/smr/ros2_self_driving_robot/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/smr/ros2_self_driving_robot/install/python_pkg /usr/bin/cmake --build /home/smr/ros2_self_driving_robot/build/sllidar_ros2 -- -j8 -l8
+[1.406s] Invoking command in '/home/smr/ros2_self_driving_robot/build/sllidar_ros2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/smr/ros2_self_driving_robot/install/python_pkg /usr/bin/cmake --install /home/smr/ros2_self_driving_robot/build/sllidar_ros2
+[1.441s] -- Install configuration: ""
+[1.441s] -- Installing: /home/smr/ros2_self_driving_robot/install/sllidar_ros2/share/sllidar_ros2/launch
+[1.442s] -- Installing: /home/smr/ros2_self_driving_robot/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m8_launch.py
+[1.443s] -- Installing: /home/smr/ros2_self_driving_robot/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_launch.py
+[1.445s] -- Installing: /home/smr/ros2_self_driving_robot/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2e_launch.py
+[1.447s] -- Installing: /home/smr/ros2_self_driving_robot/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m12_launch.py
+[1.448s] -- Installing: /home/smr/ros2_self_driving_robot/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s2_launch.py
+[1.448s] -- Installing: /home/smr/ros2_self_driving_robot/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_c1_launch.py
+[1.449s] -- Installing: /home/smr/ros2_self_driving_robot/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s1_tcp_launch.py
+[1.450s] -- Installing: /home/smr/ros2_self_driving_robot/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m8_launch.py
+[1.451s] -- Installing: /home/smr/ros2_self_driving_robot/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_t1_launch.py
+[1.452s] -- Installing: /home/smr/ros2_self_driving_robot/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a2m7_launch.py
+[1.453s] -- Installing: /home/smr/ros2_self_driving_robot/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_launch.py
+[1.453s] -- Installing: /home/smr/ros2_self_driving_robot/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m12_launch .py
+[1.455s] -- Installing: /home/smr/ros2_self_driving_robot/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a3_launch.py
+[1.455s] -- Installing: /home/smr/ros2_self_driving_robot/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2_launch.py
+[1.456s] -- Installing: /home/smr/ros2_self_driving_robot/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_t1_launch.py
+[1.457s] -- Installing: /home/smr/ros2_self_driving_robot/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a1_launch.py
+[1.459s] -- Installing: /home/smr/ros2_self_driving_robot/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s1_tcp_launch.py
+[1.461s] -- Installing: /home/smr/ros2_self_driving_robot/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a1_launch.py
+[1.462s] -- Installing: /home/smr/ros2_self_driving_robot/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_c1_launch.py
+[1.463s] -- Installing: /home/smr/ros2_self_driving_robot/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s3_launch.py
+[1.464s] -- Installing: /home/smr/ros2_self_driving_robot/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_s3_launch.py
+[1.466s] -- Installing: /home/smr/ros2_self_driving_robot/install/sllidar_ros2/share/sllidar_ros2/launch/sllidar_a2m7_launch.py
+[1.468s] -- Installing: /home/smr/ros2_self_driving_robot/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_a3_launch.py
+[1.469s] -- Installing: /home/smr/ros2_self_driving_robot/install/sllidar_ros2/share/sllidar_ros2/launch/view_sllidar_s2e_launch.py
+[1.470s] -- Installing: /home/smr/ros2_self_driving_robot/install/sllidar_ros2/share/sllidar_ros2/rviz
+[1.470s] -- Installing: /home/smr/ros2_self_driving_robot/install/sllidar_ros2/share/sllidar_ros2/rviz/sllidar_ros2.rviz
+[1.472s] -- Installing: /home/smr/ros2_self_driving_robot/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node
+[1.484s] -- Set runtime path of "/home/smr/ros2_self_driving_robot/install/sllidar_ros2/lib/sllidar_ros2/sllidar_node" to ""
+[1.485s] -- Installing: /home/smr/ros2_self_driving_robot/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client
+[1.508s] -- Set runtime path of "/home/smr/ros2_self_driving_robot/install/sllidar_ros2/lib/sllidar_ros2/sllidar_client" to ""
+[1.510s] -- Installing: /home/smr/ros2_self_driving_robot/install/sllidar_ros2/share/ament_index/resource_index/package_run_dependencies/sllidar_ros2
+[1.510s] -- Installing: /home/smr/ros2_self_driving_robot/install/sllidar_ros2/share/ament_index/resource_index/parent_prefix_path/sllidar_ros2
+[1.511s] -- Installing: /home/smr/ros2_self_driving_robot/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.sh
+[1.512s] -- Installing: /home/smr/ros2_self_driving_robot/install/sllidar_ros2/share/sllidar_ros2/environment/ament_prefix_path.dsv
+[1.512s] -- Installing: /home/smr/ros2_self_driving_robot/install/sllidar_ros2/share/sllidar_ros2/environment/path.sh
+[1.517s] -- Installing: /home/smr/ros2_self_driving_robot/install/sllidar_ros2/share/sllidar_ros2/environment/path.dsv
+[1.517s] -- Installing: /home/smr/ros2_self_driving_robot/install/sllidar_ros2/share/sllidar_ros2/local_setup.bash
+[1.517s] -- Installing: /home/smr/ros2_self_driving_robot/install/sllidar_ros2/share/sllidar_ros2/local_setup.sh
+[1.517s] -- Installing: /home/smr/ros2_self_driving_robot/install/sllidar_ros2/share/sllidar_ros2/local_setup.zsh
+[1.517s] -- Installing: /home/smr/ros2_self_driving_robot/install/sllidar_ros2/share/sllidar_ros2/local_setup.dsv
+[1.518s] -- Installing: /home/smr/ros2_self_driving_robot/install/sllidar_ros2/share/sllidar_ros2/package.dsv
+[1.522s] -- Installing: /home/smr/ros2_self_driving_robot/install/sllidar_ros2/share/ament_index/resource_index/packages/sllidar_ros2
+[1.522s] -- Installing: /home/smr/ros2_self_driving_robot/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_dependencies-extras.cmake
+[1.523s] -- Installing: /home/smr/ros2_self_driving_robot/install/sllidar_ros2/share/sllidar_ros2/cmake/ament_cmake_export_include_directories-extras.cmake
+[1.524s] -- Installing: /home/smr/ros2_self_driving_robot/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config.cmake
+[1.524s] -- Installing: /home/smr/ros2_self_driving_robot/install/sllidar_ros2/share/sllidar_ros2/cmake/sllidar_ros2Config-version.cmake
+[1.525s] -- Installing: /home/smr/ros2_self_driving_robot/install/sllidar_ros2/share/sllidar_ros2/package.xml
+[1.536s] Invoked command in '/home/smr/ros2_self_driving_robot/build/sllidar_ros2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/smr/ros2_self_driving_robot/install/python_pkg /usr/bin/cmake --install /home/smr/ros2_self_driving_robot/build/sllidar_ros2

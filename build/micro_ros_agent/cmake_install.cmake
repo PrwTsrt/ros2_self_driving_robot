@@ -117,7 +117,7 @@ if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_
      NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/micro_ros_agent/micro_ros_agent")
     file(RPATH_CHANGE
          FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/micro_ros_agent/micro_ros_agent"
-         OLD_RPATH "/opt/ros/humble/lib:/home/smr/ros2_self_driving_robot/install/micro_ros_msgs/lib:/home/smr/ros2_self_driving_robot/src/install/micro_ros_agent/lib:"
+         OLD_RPATH "/opt/ros/humble/lib:/home/smr/ros2_self_driving_robot/install/micro_ros_msgs/lib:/home/smr/ros2_self_driving_robot/install/micro_ros_agent/lib:"
          NEW_RPATH "")
     if(CMAKE_INSTALL_DO_STRIP)
       execute_process(COMMAND "/usr/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/lib/micro_ros_agent/micro_ros_agent")

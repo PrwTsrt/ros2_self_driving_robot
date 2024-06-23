@@ -1,1 +1,2 @@
-/home/smr/ros2_self_driving_robot/build/sllidar_ros2/ament_cmake_environment_hooks/local_setup.dsv
+source;share/sllidar_ros2/environment/ament_prefix_path.sh
+source;share/sllidar_ros2/environment/path.sh

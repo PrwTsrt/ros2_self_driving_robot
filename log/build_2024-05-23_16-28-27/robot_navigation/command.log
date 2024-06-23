@@ -1,4 +1,0 @@
-Invoking command in '/home/smr/ros2_self_driving_robot/build/robot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/smr/ros2_self_driving_robot/build/robot_navigation -- -j8 -l8
-Invoked command in '/home/smr/ros2_self_driving_robot/build/robot_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --build /home/smr/ros2_self_driving_robot/build/robot_navigation -- -j8 -l8
-Invoking command in '/home/smr/ros2_self_driving_robot/build/robot_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/smr/ros2_self_driving_robot/build/robot_navigation
-Invoked command in '/home/smr/ros2_self_driving_robot/build/robot_navigation' returned '1': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/humble /usr/bin/cmake --install /home/smr/ros2_self_driving_robot/build/robot_navigation

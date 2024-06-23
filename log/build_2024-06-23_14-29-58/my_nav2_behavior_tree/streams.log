@@ -1,0 +1,97 @@
+[0.046s] Invoking command in '/home/smr/ros2_self_driving_robot/build/my_nav2_behavior_tree': CMAKE_PREFIX_PATH=/home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin:/home/smr/ros2_self_driving_robot/install/sllidar_ros2:/home/smr/ros2_self_driving_robot/install/robot_navigation:/home/smr/ros2_self_driving_robot/install/robot_description:/home/smr/ros2_self_driving_robot/install/robot_bringup:/home/smr/ros2_self_driving_robot/install/nav2_behavior_tree:/home/smr/ros2_self_driving_robot/install/micro_ros_setup:/home/smr/ros2_self_driving_robot/install/micro_ros_agent:/home/smr/ros2_self_driving_robot/install/micro_ros_msgs:/opt/ros/humble:/home/smr/ros2_self_driving_robot/install/python_pkg LD_LIBRARY_PATH=/home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/lib:/home/smr/ros2_self_driving_robot/install/nav2_behavior_tree/lib:/home/smr/ros2_self_driving_robot/install/micro_ros_agent/lib:/home/smr/ros2_self_driving_robot/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/smr/ros2_self_driving_robot/build/my_nav2_behavior_tree -- -j8 -l8
+[0.238s] [35m[1mConsolidate compiler generated dependencies of target nav2_obstacle_warning_action_bt_node[0m
+[0.312s] [ 50%] [32mBuilding CXX object CMakeFiles/nav2_obstacle_warning_action_bt_node.dir/src/obstacle_warning_action.cpp.o[0m
+[4.289s] [01m[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:24:1:[m[K [01;31m[Kerror: [m[K‘[01m[KNotifyAction[m[K’ does not name a type
+[4.290s]    24 | [01;31m[KNotifyAction[m[K::NotifyAction(
+[4.290s]       | [01;31m[K^~~~~~~~~~~~[m[K
+[4.291s] [01m[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:33:6:[m[K [01;31m[Kerror: [m[K‘[01m[KNotifyAction[m[K’ has not been declared
+[4.291s]    33 | void [01;31m[KNotifyAction[m[K::initialize()
+[4.291s]       |      [01;31m[K^~~~~~~~~~~~[m[K
+[4.295s] [01m[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:[m[K In function ‘[01m[Kvoid my_nav2_behavior_tree::initialize()[m[K’:
+[4.296s] [01m[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:36:3:[m[K [01;31m[Kerror: [m[K‘[01m[KgetInput[m[K’ was not declared in this scope; did you mean ‘[01m[Kgetpt[m[K’?
+[4.296s]    36 |   [01;31m[KgetInput[m[K("message_to_send", message);
+[4.297s]       |   [01;31m[K^~~~~~~~[m[K
+[4.297s]       |   [32m[Kgetpt[m[K
+[4.301s] [01m[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:44:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kgoal_[m[K’ was not declared in this scope
+[4.302s]    44 |   [01;31m[Kgoal_[m[K.message = message;
+[4.302s]       |   [01;31m[K^~~~~[m[K
+[4.307s] [01m[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:45:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kinitialized_[m[K’ was not declared in this scope; did you mean ‘[01m[Kinitialize[m[K’?
+[4.307s]    45 |   [01;31m[Kinitialized_[m[K = true;
+[4.308s]       |   [01;31m[K^~~~~~~~~~~~[m[K
+[4.308s]       |   [32m[Kinitialize[m[K
+[4.308s] [01m[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:[m[K At global scope:
+[4.308s] [01m[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:48:6:[m[K [01;31m[Kerror: [m[K‘[01m[KNotifyAction[m[K’ has not been declared
+[4.308s]    48 | void [01;31m[KNotifyAction[m[K::on_tick()
+[4.308s]       |      [01;31m[K^~~~~~~~~~~~[m[K
+[4.314s] [01m[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:[m[K In function ‘[01m[Kvoid my_nav2_behavior_tree::on_tick()[m[K’:
+[4.314s] [01m[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:50:8:[m[K [01;31m[Kerror: [m[K‘[01m[Kinitialized_[m[K’ was not declared in this scope; did you mean ‘[01m[Kinitialize[m[K’?
+[4.314s]    50 |   if (![01;31m[Kinitialized_[m[K) {
+[4.314s]       |        [01;31m[K^~~~~~~~~~~~[m[K
+[4.315s]       |        [32m[Kinitialize[m[K
+[4.327s] [01m[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:54:3:[m[K [01;31m[Kerror: [m[K‘[01m[Kincrement_recovery_count[m[K’ was not declared in this scope
+[4.327s]    54 |   [01;31m[Kincrement_recovery_count[m[K();
+[4.327s]       |   [01;31m[K^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.404s] [01m[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:[m[K In lambda function:
+[4.404s] [01m[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:65:54:[m[K [01;31m[Kerror: [m[K‘[01m[KNotifyAction[m[K’ is not a member of ‘[01m[Kmy_nav2_behavior_tree[m[K’; did you mean ‘[01m[Knav2_behavior_tree::NotifyAction[m[K’?
+[4.404s]    65 |       return std::make_unique<my_nav2_behavior_tree::[01;31m[KNotifyAction[m[K>(name, "notify", config);
+[4.404s]       |                                                      [01;31m[K^~~~~~~~~~~~[m[K
+[4.404s] In file included from [01m[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:19[m[K:
+[4.404s] [01m[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/include/my_nav2_behavior_tree/obstacle_warning_action.hpp:29:7:[m[K [01;36m[Knote: [m[K‘[01m[Knav2_behavior_tree::NotifyAction[m[K’ declared here
+[4.405s]    29 | class [01;36m[KNotifyAction[m[K : public BtActionNode<nav2_behavior_plugin::action::ObstacleWarning>
+[4.405s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[4.405s] [01m[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:65:67:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[Kmake_unique<<expression error> >(const string&, const char [7], const BT::NodeConfiguration&)[m[K’
+[4.405s]    65 |       return [01;31m[Kstd::make_unique<my_nav2_behavior_tree::NotifyAction>(name, "notify", config)[m[K;
+[4.405s]       |              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.405s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[4.405s]                  from [01m[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:16[m[K:
+[4.405s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:961:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> typename std::_MakeUniq<_Tp>::__single_object std::make_unique(_Args&& ...)[m[K’
+[4.405s]   961 |     [01;36m[Kmake_unique[m[K(_Args&&... __args)
+[4.405s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[4.405s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:961:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.406s] [01m[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:65:67:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.406s]    65 |       return [01;31m[Kstd::make_unique<my_nav2_behavior_tree::NotifyAction>(name, "notify", config)[m[K;
+[4.406s]       |              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.406s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[4.406s]                  from [01m[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:16[m[K:
+[4.406s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:967:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp> typename std::_MakeUniq<_Tp>::__array std::make_unique(std::size_t)[m[K’
+[4.406s]   967 |     [01;36m[Kmake_unique[m[K(size_t __num)
+[4.407s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[4.407s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:967:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.407s] [01m[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:65:67:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.407s]    65 |       return [01;31m[Kstd::make_unique<my_nav2_behavior_tree::NotifyAction>(name, "notify", config)[m[K;
+[4.407s]       |              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.407s] In file included from [01m[K/usr/include/c++/11/memory:76[m[K,
+[4.407s]                  from [01m[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:16[m[K:
+[4.407s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:973:5:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class _Tp, class ... _Args> typename std::_MakeUniq<_Tp>::__invalid_type std::make_unique(_Args&& ...)[m[K’ (deleted)
+[4.407s]   973 |     [01;36m[Kmake_unique[m[K(_Args&&...) = delete;
+[4.407s]       |     [01;36m[K^~~~~~~~~~~[m[K
+[4.407s] [01m[K/usr/include/c++/11/bits/unique_ptr.h:973:5:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.407s] [01m[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:65:67:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.407s]    65 |       return [01;31m[Kstd::make_unique<my_nav2_behavior_tree::NotifyAction>(name, "notify", config)[m[K;
+[4.408s]       |              [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~~~~~~[m[K
+[4.408s] [01m[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:[m[K In function ‘[01m[Kvoid BT_RegisterNodesFromPlugin(BT::BehaviorTreeFactory&)[m[K’:
+[4.408s] [01m[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:66:5:[m[K [01;31m[Kerror: [m[Kconversion from ‘[01m[KBT_RegisterNodesFromPlugin(BT::BehaviorTreeFactory&)::<lambda(const string&, const BT::NodeConfiguration&)>[m[K’ to non-scalar type ‘[01m[KBT::NodeBuilder[m[K’ {aka ‘[01m[Kstd::function<std::unique_ptr<BT::TreeNode>(const std::__cxx11::basic_string<char>&, const BT::NodeConfiguration&)>[m[K’} requested
+[4.408s]    66 |     [01;31m[K}[m[K;
+[4.408s]       |     [01;31m[K^[m[K
+[4.408s] [01m[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:68:50:[m[K [01;31m[Kerror: [m[K‘[01m[KNotifyAction[m[K’ is not a member of ‘[01m[Kmy_nav2_behavior_tree[m[K’; did you mean ‘[01m[Knav2_behavior_tree::NotifyAction[m[K’?
+[4.408s]    68 |   factory.registerBuilder<my_nav2_behavior_tree::[01;31m[KNotifyAction[m[K>("Notify", builder);
+[4.408s]       |                                                  [01;31m[K^~~~~~~~~~~~[m[K
+[4.408s] In file included from [01m[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:19[m[K:
+[4.408s] [01m[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/include/my_nav2_behavior_tree/obstacle_warning_action.hpp:29:7:[m[K [01;36m[Knote: [m[K‘[01m[Knav2_behavior_tree::NotifyAction[m[K’ declared here
+[4.408s]    29 | class [01;36m[KNotifyAction[m[K : public BtActionNode<nav2_behavior_plugin::action::ObstacleWarning>
+[4.408s]       |       [01;36m[K^~~~~~~~~~~~[m[K
+[4.409s] [01m[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:68:63:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KBT::BehaviorTreeFactory::registerBuilder<<expression error> >(const char [7], BT::NodeBuilder&)[m[K’
+[4.409s]    68 |   [01;31m[Kfactory.registerBuilder<my_nav2_behavior_tree::NotifyAction>("Notify", builder)[m[K;
+[4.409s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[4.409s] In file included from [01m[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:59[m[K:
+[4.409s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:267:8:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class T> void BT::BehaviorTreeFactory::registerBuilder(const string&, const NodeBuilder&)[m[K’
+[4.409s]   267 |   void [01;36m[KregisterBuilder[m[K(const std::string& ID, const NodeBuilder& builder)
+[4.409s]       |        [01;36m[K^~~~~~~~~~~~~~~[m[K
+[4.409s] [01m[K/opt/ros/humble/include/behaviortree_cpp_v3/bt_factory.h:267:8:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[4.409s] [01m[K/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/src/obstacle_warning_action.cpp:68:63:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+[4.409s]    68 |   [01;31m[Kfactory.registerBuilder<my_nav2_behavior_tree::NotifyAction>("Notify", builder)[m[K;
+[4.409s]       |   [01;31m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~~~~~~~~~~~~[m[K
+[6.134s] gmake[2]: *** [CMakeFiles/nav2_obstacle_warning_action_bt_node.dir/build.make:76: CMakeFiles/nav2_obstacle_warning_action_bt_node.dir/src/obstacle_warning_action.cpp.o] Error 1
+[6.135s] gmake[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/nav2_obstacle_warning_action_bt_node.dir/all] Error 2
+[6.136s] gmake: *** [Makefile:146: all] Error 2
+[6.142s] Invoked command in '/home/smr/ros2_self_driving_robot/build/my_nav2_behavior_tree' returned '2': CMAKE_PREFIX_PATH=/home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin:/home/smr/ros2_self_driving_robot/install/sllidar_ros2:/home/smr/ros2_self_driving_robot/install/robot_navigation:/home/smr/ros2_self_driving_robot/install/robot_description:/home/smr/ros2_self_driving_robot/install/robot_bringup:/home/smr/ros2_self_driving_robot/install/nav2_behavior_tree:/home/smr/ros2_self_driving_robot/install/micro_ros_setup:/home/smr/ros2_self_driving_robot/install/micro_ros_agent:/home/smr/ros2_self_driving_robot/install/micro_ros_msgs:/opt/ros/humble:/home/smr/ros2_self_driving_robot/install/python_pkg LD_LIBRARY_PATH=/home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/lib:/home/smr/ros2_self_driving_robot/install/nav2_behavior_tree/lib:/home/smr/ros2_self_driving_robot/install/micro_ros_agent/lib:/home/smr/ros2_self_driving_robot/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/smr/ros2_self_driving_robot/build/my_nav2_behavior_tree -- -j8 -l8

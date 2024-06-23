@@ -39,6 +39,14 @@ amcl:
     z_rand: 0.5
     z_short: 0.05
     scan_topic: scan
+    set_initial_pose: true
+    # always_reset_initial_pose: false
+    initial_pose:
+      x: 0.0
+      y: 0.0
+      yaw: -1.57
+
+
 
 amcl_map_client:
   ros__parameters:
@@ -54,6 +62,7 @@ bt_navigator:
     global_frame: map
     robot_base_frame: base_link
     odom_topic: /odom
+    # default_bt_xml_filename: "/opt/ros/humble/share/nav2_bt_navigator/behavior_trees/navigate_to_pose_w_replanning_and_recovery.xml"
     bt_loop_duration: 10
     default_server_timeout: 20
     enable_groot_monitoring: true
@@ -91,6 +100,7 @@ bt_navigator:
     - nav2_planner_selector_bt_node
     - nav2_controller_selector_bt_node
     - nav2_goal_checker_selector_bt_node
+    - nav2_obstacle_warning_action_bt_node
 
 bt_navigator_rclcpp_node:
   ros__parameters:
@@ -250,7 +260,7 @@ global_costmap:
       inflation_layer:
         plugin: "nav2_costmap_2d::InflationLayer"
         enabled: true
-        inflation_radius: 0.55
+        inflation_radius: 0.2
         cost_scaling_factor: 1.0
         inflate_unknown: false
         inflate_around_unknown: true
@@ -330,7 +340,7 @@ local_costmap:
       inflation_layer:
         plugin: "nav2_costmap_2d::InflationLayer"
         enabled: true
-        inflation_radius: 0.55
+        inflation_radius: 0.2
         cost_scaling_factor: 1.0
         inflate_unknown: false
         inflate_around_unknown: true
@@ -348,33 +358,92 @@ map_saver:
     occupied_thresh_default: 0.65
     map_subscribe_transient_local: true
 
+# planner_server:
+#   ros__parameters:
+#     expected_planner_frequency: 20.0
+#     use_sim_time: false
+#     planner_plugins: ["GridBased"]
+#     GridBased:
+#       plugin: "nav2_navfn_planner/NavfnPlanner"
+#       tolerance: 0.5
+#       use_astar: false
+#       allow_unknown: false
+
 planner_server:
   ros__parameters:
-    expected_planner_frequency: 20.0
-    use_sim_time: false
     planner_plugins: ["GridBased"]
+    use_sim_time: false
+
     GridBased:
-      plugin: "nav2_navfn_planner/NavfnPlanner"
-      tolerance: 0.5
-      use_astar: false
-      allow_unknown: true
+      plugin: "nav2_smac_planner/SmacPlannerLattice" # In Iron and older versions, "/" was used instead of "::"
+      allow_unknown: false                # Allow traveling in unknown space
+      tolerance: 0.25                     # dist-to-goal heuristic cost (distance) for valid tolerance endpoints if exact goal cannot be found.
+      max_iterations: 1000000             # Maximum total iterations to search for before failing (in case unreachable), set to -1 to disable
+      max_on_approach_iterations: 1000    # Maximum number of iterations after within tolerances to continue to try to find exact solution
+      max_planning_time: 5.0              # Max time in s for planner to plan, smooth
+      analytic_expansion_ratio: 3.5       # The ratio to attempt analytic expansions during search for final approach.
+      analytic_expansion_max_length: 3.0  # For Hybrid/Lattice nodes The maximum length of the analytic expansion to be considered valid to prevent unsafe shortcutting
+      analytic_expansion_max_cost: 200.0  # The maximum single cost for any part of an analytic expansion to contain and be valid, except when necessary on approach to goal
+      analytic_expansion_max_cost_override: false  #  Whether or not to override the maximum cost setting if within critical distance to goal (ie probably required)
+      reverse_penalty: 2.0                # Penalty to apply if motion is reversing, must be => 1
+      change_penalty: 0.05                # Penalty to apply if motion is changing directions (L to R), must be >= 0
+      non_straight_penalty: 1.05          # Penalty to apply if motion is non-straight, must be => 1
+      cost_penalty: 2.0                   # Penalty to apply to higher cost areas when adding into the obstacle map dynamic programming distance expansion heuristic. This drives the robot more towards the center of passages. A value between 1.3 - 3.5 is reasonable.
+      rotation_penalty: 5.0               # Penalty to apply to in-place rotations, if minimum control set contains them
+      retrospective_penalty: 0.015
+      lattice_filepath: "/opt/ros/humble/share/nav2_smac_planner/sample_primitives/5cm_resolution/0.5m_turning_radius/diff/output.json"                # The filepath to the state lattice graph
+      lookup_table_size: 20.0             # Size of the dubin/reeds-sheep distance window to cache, in meters.
+      cache_obstacle_heuristic: false     # Cache the obstacle map dynamic programming distance expansion heuristic between subsiquent replannings of the same goal location. Dramatically speeds up replanning performance (40x) if costmap is largely static.
+      allow_reverse_expansion: false      # If true, allows the robot to use the primitives to expand in the mirrored opposite direction of the current robot's orientation (to reverse).
+      smooth_path: True                   # If true, does a simple and quick smoothing post-processing to the path
+      smoother:
+        max_iterations: 1000
+        w_smooth: 0.3
+        w_data: 0.2
+        tolerance: 1.0e-10
+        do_refinement: true
+        refinement_num: 2
 
 planner_server_rclcpp_node:
   ros__parameters:
     use_sim_time: false
 
-recoveries_server:
+# recoveries_server:
+#   ros__parameters:
+#     costmap_topic: local_costmap/costmap_raw
+#     footprint_topic: local_costmap/published_footprint
+#     cycle_frequency: 10.0
+#     recovery_plugins: ["spin", "backup", "wait"]
+#     spin:
+#       plugin: "nav2_recoveries/Spin"
+#     backup:
+#       plugin: "nav2_recoveries/BackUp"
+#     wait:
+#       plugin: "nav2_recoveries/Wait"
+#     global_frame: odom
+#     robot_base_frame: base_link
+#     transform_timeout: 0.1
+#     use_sim_time: false
+#     simulate_ahead_time: 2.0
+#     max_rotational_vel: 1.0
+#     min_rotational_vel: 0.4
+#     rotational_acc_lim: 3.2
+
+behavior_server:
   ros__parameters:
     costmap_topic: local_costmap/costmap_raw
     footprint_topic: local_costmap/published_footprint
     cycle_frequency: 10.0
-    recovery_plugins: ["spin", "backup", "wait"]
-    spin:
-      plugin: "nav2_recoveries/Spin"
-    backup:
-      plugin: "nav2_recoveries/BackUp"
+    behavior_plugins: ["wait","notify"]
+    # spin:
+    #   plugin: "nav2_behaviors/Spin"
+    # backup:
+    #   plugin: "nav2_behaviors/BackUp"
     wait:
-      plugin: "nav2_recoveries/Wait"
+      plugin: "nav2_behaviors/Wait"
+    notify:
+      plugin: "nav2_behavior_plugin/Notify"
+    token: "Zw3RDlnMYwu1Dkk1oRKN0LTnRytXAnkCjezXpux4KDL"
     global_frame: odom
     robot_base_frame: base_link
     transform_timeout: 0.1

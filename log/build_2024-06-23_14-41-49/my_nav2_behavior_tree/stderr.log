@@ -1,0 +1,6 @@
+[31mCMake Error at cmake_install.cmake:73 (file):
+  file INSTALL cannot find
+  "/home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/behavior_trees":
+  No such file or directory.
+
+[0m

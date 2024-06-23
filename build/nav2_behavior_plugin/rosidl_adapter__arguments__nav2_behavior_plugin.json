@@ -1,0 +1,6 @@
+{
+  "package_name": "nav2_behavior_plugin",
+  "non_idl_tuples": [
+    "/home/smr/ros2_self_driving_robot/src/nav2_behavior_plugin:action/ObstacleWarning.action"
+  ]
+}

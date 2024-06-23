@@ -14,6 +14,7 @@ from launch_ros.parameter_descriptions import ParameterValue
 def generate_launch_description():
     robot_description_dir = get_package_share_directory("robot_description")
     robot_bringup_dir = get_package_share_directory("robot_bringup")
+    foxglove_dir = get_package_share_directory("foxglove_bridge")
 
     domain_arg = DeclareLaunchArgument(
             'ros_domain_id',
@@ -101,12 +102,18 @@ def generate_launch_description():
             arguments=['serial', '--dev', '/dev/ttyACM0', '-b', '921600', '-v4']
     )
 
-    teleop = Node(
-            package='teleop_twist_keyboard',
-            executable='teleop_twist_keyboard',
-            name='teleop_twist_keyboard_node',
-            output='screen'
-        )
+    foxglove_bridge = IncludeLaunchDescription(os.path.join(
+        foxglove_dir,
+        "launch",
+        "foxglove_bridge_launch.xml")
+    )
+
+    # teleop = Node(
+    #         package='teleop_twist_keyboard',
+    #         executable='teleop_twist_keyboard',
+    #         name='teleop_twist_keyboard_node',
+    #         output='screen'
+    #     )
 
     return LaunchDescription([
         domain_arg,
@@ -122,5 +129,5 @@ def generate_launch_description():
         scan,
         rviz_node,
         robot_localization,
-        # teleop
+        #foxglove_bridge
     ])

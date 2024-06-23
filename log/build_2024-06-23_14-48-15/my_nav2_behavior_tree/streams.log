@@ -1,0 +1,66 @@
+[0.027s] Invoking command in '/home/smr/ros2_self_driving_robot/build/my_nav2_behavior_tree': CMAKE_PREFIX_PATH=/home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin:/home/smr/ros2_self_driving_robot/install/sllidar_ros2:/home/smr/ros2_self_driving_robot/install/robot_navigation:/home/smr/ros2_self_driving_robot/install/robot_description:/home/smr/ros2_self_driving_robot/install/robot_bringup:/home/smr/ros2_self_driving_robot/install/nav2_behavior_tree:/home/smr/ros2_self_driving_robot/install/micro_ros_setup:/home/smr/ros2_self_driving_robot/install/micro_ros_agent:/home/smr/ros2_self_driving_robot/install/micro_ros_msgs:/opt/ros/humble:/home/smr/ros2_self_driving_robot/install/python_pkg LD_LIBRARY_PATH=/home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/lib:/home/smr/ros2_self_driving_robot/install/nav2_behavior_tree/lib:/home/smr/ros2_self_driving_robot/install/micro_ros_agent/lib:/home/smr/ros2_self_driving_robot/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/smr/ros2_self_driving_robot/build/my_nav2_behavior_tree -- -j8 -l8
+[0.130s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.423s] -- Found nav2_common: 1.1.14 (/opt/ros/humble/share/nav2_common/cmake)
+[0.425s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.497s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.500s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.509s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.527s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.557s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.660s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.663s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.813s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.089s] -- Found rclcpp_action: 16.0.8 (/opt/ros/humble/share/rclcpp_action/cmake)
+[1.249s] -- Found rclcpp_lifecycle: 16.0.8 (/opt/ros/humble/share/rclcpp_lifecycle/cmake)
+[1.316s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.398s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[1.533s] -- Found nav2_msgs: 1.1.14 (/opt/ros/humble/share/nav2_msgs/cmake)
+[1.975s] -- Found tf2_ros: 0.25.6 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.368s] -- Found tf2_geometry_msgs: 0.25.6 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[2.379s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.381s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.395s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[2.426s] -- Found nav2_util: 1.1.14 (/opt/ros/humble/share/nav2_util/cmake)
+[2.783s] -- Found nav2_behavior_tree: 1.1.14 (/opt/ros/humble/share/nav2_behavior_tree/cmake)
+[4.108s] -- Found nav2_behavior_plugin: 0.0.0 (/home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/share/nav2_behavior_plugin/cmake)
+[24.709s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[24.877s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[24.881s] -- Configured cppcheck include dirs: /home/smr/ros2_self_driving_robot/src/my_nav2_behavior_tree/include
+[24.881s] -- Configured cppcheck exclude dirs and/or files: 
+[24.883s] -- Added test 'lint_cmake' to check CMake code style
+[24.888s] -- Added test 'uncrustify' to check C / C++ code style
+[24.888s] -- Configured uncrustify additional arguments: 
+[24.891s] -- Added test 'xmllint' to check XML markup files
+[24.894s] -- Configuring done
+[24.967s] -- Generating done
+[24.971s] -- Build files have been written to: /home/smr/ros2_self_driving_robot/build/my_nav2_behavior_tree
+[25.071s] [35m[1mConsolidate compiler generated dependencies of target nav2_obstacle_warning_action_bt_node[0m
+[25.126s] [100%] Built target nav2_obstacle_warning_action_bt_node
+[25.160s] Invoked command in '/home/smr/ros2_self_driving_robot/build/my_nav2_behavior_tree' returned '0': CMAKE_PREFIX_PATH=/home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin:/home/smr/ros2_self_driving_robot/install/sllidar_ros2:/home/smr/ros2_self_driving_robot/install/robot_navigation:/home/smr/ros2_self_driving_robot/install/robot_description:/home/smr/ros2_self_driving_robot/install/robot_bringup:/home/smr/ros2_self_driving_robot/install/nav2_behavior_tree:/home/smr/ros2_self_driving_robot/install/micro_ros_setup:/home/smr/ros2_self_driving_robot/install/micro_ros_agent:/home/smr/ros2_self_driving_robot/install/micro_ros_msgs:/opt/ros/humble:/home/smr/ros2_self_driving_robot/install/python_pkg LD_LIBRARY_PATH=/home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/lib:/home/smr/ros2_self_driving_robot/install/nav2_behavior_tree/lib:/home/smr/ros2_self_driving_robot/install/micro_ros_agent/lib:/home/smr/ros2_self_driving_robot/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --build /home/smr/ros2_self_driving_robot/build/my_nav2_behavior_tree -- -j8 -l8
+[25.259s] Invoking command in '/home/smr/ros2_self_driving_robot/build/my_nav2_behavior_tree': CMAKE_PREFIX_PATH=/home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin:/home/smr/ros2_self_driving_robot/install/sllidar_ros2:/home/smr/ros2_self_driving_robot/install/robot_navigation:/home/smr/ros2_self_driving_robot/install/robot_description:/home/smr/ros2_self_driving_robot/install/robot_bringup:/home/smr/ros2_self_driving_robot/install/nav2_behavior_tree:/home/smr/ros2_self_driving_robot/install/micro_ros_setup:/home/smr/ros2_self_driving_robot/install/micro_ros_agent:/home/smr/ros2_self_driving_robot/install/micro_ros_msgs:/opt/ros/humble:/home/smr/ros2_self_driving_robot/install/python_pkg LD_LIBRARY_PATH=/home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/lib:/home/smr/ros2_self_driving_robot/install/nav2_behavior_tree/lib:/home/smr/ros2_self_driving_robot/install/micro_ros_agent/lib:/home/smr/ros2_self_driving_robot/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/smr/ros2_self_driving_robot/build/my_nav2_behavior_tree
+[25.287s] -- Install configuration: "Release"
+[25.287s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/my_nav2_behavior_tree/lib/libnav2_obstacle_warning_action_bt_node.so
+[25.287s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/my_nav2_behavior_tree/include/
+[25.287s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/my_nav2_behavior_tree/include//my_nav2_behavior_tree
+[25.287s] -- Up-to-date: /home/smr/ros2_self_driving_robot/install/my_nav2_behavior_tree/include//my_nav2_behavior_tree/obstacle_warning_action.hpp
+[25.288s] -- Installing: /home/smr/ros2_self_driving_robot/install/my_nav2_behavior_tree/share/my_nav2_behavior_tree/environment/library_path.sh
+[25.288s] -- Installing: /home/smr/ros2_self_driving_robot/install/my_nav2_behavior_tree/share/my_nav2_behavior_tree/environment/library_path.dsv
+[25.288s] -- Installing: /home/smr/ros2_self_driving_robot/install/my_nav2_behavior_tree/share/ament_index/resource_index/package_run_dependencies/my_nav2_behavior_tree
+[25.288s] -- Installing: /home/smr/ros2_self_driving_robot/install/my_nav2_behavior_tree/share/ament_index/resource_index/parent_prefix_path/my_nav2_behavior_tree
+[25.288s] -- Installing: /home/smr/ros2_self_driving_robot/install/my_nav2_behavior_tree/share/my_nav2_behavior_tree/environment/ament_prefix_path.sh
+[25.288s] -- Installing: /home/smr/ros2_self_driving_robot/install/my_nav2_behavior_tree/share/my_nav2_behavior_tree/environment/ament_prefix_path.dsv
+[25.288s] -- Installing: /home/smr/ros2_self_driving_robot/install/my_nav2_behavior_tree/share/my_nav2_behavior_tree/environment/path.sh
+[25.289s] -- Installing: /home/smr/ros2_self_driving_robot/install/my_nav2_behavior_tree/share/my_nav2_behavior_tree/environment/path.dsv
+[25.289s] -- Installing: /home/smr/ros2_self_driving_robot/install/my_nav2_behavior_tree/share/my_nav2_behavior_tree/local_setup.bash
+[25.290s] -- Installing: /home/smr/ros2_self_driving_robot/install/my_nav2_behavior_tree/share/my_nav2_behavior_tree/local_setup.sh
+[25.290s] -- Installing: /home/smr/ros2_self_driving_robot/install/my_nav2_behavior_tree/share/my_nav2_behavior_tree/local_setup.zsh
+[25.290s] -- Installing: /home/smr/ros2_self_driving_robot/install/my_nav2_behavior_tree/share/my_nav2_behavior_tree/local_setup.dsv
+[25.290s] -- Installing: /home/smr/ros2_self_driving_robot/install/my_nav2_behavior_tree/share/my_nav2_behavior_tree/package.dsv
+[25.290s] -- Installing: /home/smr/ros2_self_driving_robot/install/my_nav2_behavior_tree/share/ament_index/resource_index/packages/my_nav2_behavior_tree
+[25.290s] -- Installing: /home/smr/ros2_self_driving_robot/install/my_nav2_behavior_tree/share/my_nav2_behavior_tree/cmake/ament_cmake_export_include_directories-extras.cmake
+[25.290s] -- Installing: /home/smr/ros2_self_driving_robot/install/my_nav2_behavior_tree/share/my_nav2_behavior_tree/cmake/ament_cmake_export_libraries-extras.cmake
+[25.291s] -- Installing: /home/smr/ros2_self_driving_robot/install/my_nav2_behavior_tree/share/my_nav2_behavior_tree/cmake/ament_cmake_export_dependencies-extras.cmake
+[25.291s] -- Installing: /home/smr/ros2_self_driving_robot/install/my_nav2_behavior_tree/share/my_nav2_behavior_tree/cmake/my_nav2_behavior_treeConfig.cmake
+[25.291s] -- Installing: /home/smr/ros2_self_driving_robot/install/my_nav2_behavior_tree/share/my_nav2_behavior_tree/cmake/my_nav2_behavior_treeConfig-version.cmake
+[25.291s] -- Installing: /home/smr/ros2_self_driving_robot/install/my_nav2_behavior_tree/share/my_nav2_behavior_tree/package.xml
+[25.314s] Invoked command in '/home/smr/ros2_self_driving_robot/build/my_nav2_behavior_tree' returned '0': CMAKE_PREFIX_PATH=/home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin:/home/smr/ros2_self_driving_robot/install/sllidar_ros2:/home/smr/ros2_self_driving_robot/install/robot_navigation:/home/smr/ros2_self_driving_robot/install/robot_description:/home/smr/ros2_self_driving_robot/install/robot_bringup:/home/smr/ros2_self_driving_robot/install/nav2_behavior_tree:/home/smr/ros2_self_driving_robot/install/micro_ros_setup:/home/smr/ros2_self_driving_robot/install/micro_ros_agent:/home/smr/ros2_self_driving_robot/install/micro_ros_msgs:/opt/ros/humble:/home/smr/ros2_self_driving_robot/install/python_pkg LD_LIBRARY_PATH=/home/smr/ros2_self_driving_robot/install/nav2_behavior_plugin/lib:/home/smr/ros2_self_driving_robot/install/nav2_behavior_tree/lib:/home/smr/ros2_self_driving_robot/install/micro_ros_agent/lib:/home/smr/ros2_self_driving_robot/install/micro_ros_msgs/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/aarch64-linux-gnu:/opt/ros/humble/lib /usr/bin/cmake --install /home/smr/ros2_self_driving_robot/build/my_nav2_behavior_tree
